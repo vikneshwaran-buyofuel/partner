@@ -15,7 +15,7 @@ class AuthController {
     required SharedPreferences prefs,
   })  : _apiClient = apiClient,
         _prefs = prefs;
-
+        
   // Login
   Future<UserModel> login({
     required String email,

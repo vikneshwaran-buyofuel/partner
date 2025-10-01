@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:partner/app/domain/models/user_model.dart';
 import 'package:partner/app/presentation/auth/providers/auth_provider.dart';
 import 'package:partner/core/constants/app_constants.dart';
 import 'package:partner/core/utils/app_utils.dart';
+
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});
 
@@ -36,21 +38,27 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Listen for auth state changes (errors or success)
-    ref.listen<AuthState>(authProvider, (previous, next) {
-      if (next.errorMessage != null) {
-        AppUtils.showSnackBar(
-          context,
-          message: next.errorMessage!,
-          backgroundColor: Theme.of(context).colorScheme.error,
-        );
-      } else if (next.isAuthenticated) {
-        // Navigate to home/dashboard after successful login
-        context.go(AppConstants.homeRoute);
-      }
-    });
+    // Watch the AsyncValue<UserModel?>
+    final userState = ref.watch(authProvider.select((state) => state.user));
 
-    final authState = ref.watch(authProvider);
+    // Listen for errors or successful login
+    ref.listen<AsyncValue<UserModel?>>(authProvider.select((s) => s.user), (previous, next) {
+      next.whenOrNull(
+        
+        error: (err, st) {
+          AppUtils.showSnackBar(
+            context,
+            message: err.toString(),
+            backgroundColor: Theme.of(context).colorScheme.error,
+          );
+        },
+        data: (user) {
+          if (user != null) {
+            context.go(AppConstants.homeRoute);
+          }
+        },
+      );
+    });
 
     return Scaffold(
       appBar: AppBar(title: const Text('Login')),
@@ -121,20 +129,19 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     alignment: Alignment.centerRight,
                     child: TextButton(
                       onPressed: () {
-                        // TODO: Implement forgot password
                       },
                       child: const Text('Forgot Password?'),
                     ),
                   ),
                   const SizedBox(height: 24),
                   ElevatedButton(
-                    onPressed: authState.isLoading ? null : _login,
+                    onPressed: userState.isLoading ? null : _login,
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       backgroundColor: Theme.of(context).colorScheme.primary,
                       foregroundColor: Theme.of(context).colorScheme.onPrimary,
                     ),
-                    child: authState.isLoading
+                    child: userState.isLoading
                         ? const SizedBox(
                             height: 20,
                             width: 20,

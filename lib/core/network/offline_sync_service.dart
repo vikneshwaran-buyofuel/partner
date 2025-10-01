@@ -2,8 +2,6 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:hive/hive.dart';
-import 'package:uuid/uuid.dart';
-import 'package:synchronized/synchronized.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
 /// Status of a sync operation

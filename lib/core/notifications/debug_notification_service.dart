@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:partner/core/notifications/notification_service.dart';
 
 /// A simple debug implementation of notification service

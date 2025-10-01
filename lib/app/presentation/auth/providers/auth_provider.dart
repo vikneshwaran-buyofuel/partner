@@ -2,84 +2,59 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:partner/app/domain/controllers/auth/auth_controller.dart';
 import 'package:partner/app/domain/models/user_model.dart';
-import 'package:partner/core/network/api_client.dart';
-import 'package:partner/core/providers/storage_providers.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:partner/core/error/exceptions.dart';
+import 'package:partner/app/providers/api_provider.dart';
+import 'package:partner/app/providers/storage_providers.dart';
 
+/// --------------------
 /// Auth State
+/// --------------------
 class AuthState {
-  final bool isAuthenticated;
-  final bool isLoading;
-  final UserModel? user;
-  final String? errorMessage;
+  final AsyncValue<UserModel?> user;
 
-  const AuthState({
-    this.isAuthenticated = false,
-    this.isLoading = false,
-    this.user,
-    this.errorMessage,
-  });
+  const AuthState({this.user = const AsyncValue.data(null)});
 
-  AuthState copyWith({
-    bool? isAuthenticated,
-    bool? isLoading,
-    UserModel? user,
-    String? errorMessage,
-  }) {
-    return AuthState(
-      isAuthenticated: isAuthenticated ?? this.isAuthenticated,
-      isLoading: isLoading ?? this.isLoading,
-      user: user ?? this.user,
-      errorMessage: errorMessage,
-    );
+  AuthState copyWith({AsyncValue<UserModel?>? user}) {
+    return AuthState(user: user ?? this.user);
   }
 }
-
-final authProvider = StateNotifierProvider<AuthNotifier, AuthState>((ref) {
-  return AuthNotifier(ref);
-});
 
 class AuthNotifier extends StateNotifier<AuthState> {
   final Ref _ref;
   AuthController? _controller;
-
   AuthNotifier(this._ref) : super(const AuthState()) {
     _init();
   }
 
   Future<void> _init() async {
-    state = state.copyWith(isLoading: true);
+    // Show loading
+    state = state.copyWith(user: const AsyncValue.loading());
     try {
       final prefs = await _ref.watch(sharedPreferencesProvider.future);
-      final apiClient = ApiClient(); 
+      final apiClient = _ref.read(apiProvider);
       _controller = AuthController(apiClient: apiClient, prefs: prefs);
 
-      // Optionally, check auth status
       final isAuth = await _controller!.isAuthenticated();
-      final user = isAuth ? await _controller!.getCurrentUser() : null;
+      final currentUser =
+          isAuth ? await _controller!.getCurrentUser() : null;
+
       state = state.copyWith(
-        isLoading: false,
-        isAuthenticated: isAuth,
-        user: user,
-      );
-    } catch (e) {
-      state = state.copyWith(isLoading: false, errorMessage: e.toString());
+          user: AsyncValue.data(currentUser));
+    } catch (e, st) {
+      state = state.copyWith(user: AsyncValue.error(e, st));
     }
   }
 
-  Future<void> login({required String email, required String password}) async {
+  Future<void> login({
+    required String email,
+    required String password,
+  }) async {
     if (_controller == null) return;
-    state = state.copyWith(isLoading: true, errorMessage: null);
+    state = state.copyWith(user: const AsyncValue.loading());
     try {
       final user = await _controller!.login(email: email, password: password);
-      state = state.copyWith(
-        isLoading: false,
-        isAuthenticated: true,
-        user: user,
-      );
-    } catch (e) {
-      state = state.copyWith(isLoading: false, errorMessage: e.toString());
+      state = state.copyWith(user: AsyncValue.data(user));
+    } catch (e, st) {
+      state = state.copyWith(user: AsyncValue.error(e, st));
     }
   }
 
@@ -89,35 +64,34 @@ class AuthNotifier extends StateNotifier<AuthState> {
     required String password,
   }) async {
     if (_controller == null) return;
-    state = state.copyWith(isLoading: true, errorMessage: null);
+    state = state.copyWith(user: const AsyncValue.loading());
     try {
       final user = await _controller!.register(
         name: name,
         email: email,
         password: password,
       );
-      state = state.copyWith(
-        isLoading: false,
-        isAuthenticated: true,
-        user: user,
-      );
-    } catch (e) {
-      state = state.copyWith(isLoading: false, errorMessage: e.toString());
+      state = state.copyWith(user: AsyncValue.data(user));
+    } catch (e, st) {
+      state = state.copyWith(user: AsyncValue.error(e, st));
     }
   }
 
   Future<void> logout() async {
     if (_controller == null) return;
-    state = state.copyWith(isLoading: true, errorMessage: null);
+    state = state.copyWith(user: const AsyncValue.loading());
     try {
       await _controller!.logout();
-      state = state.copyWith(
-        isLoading: false,
-        isAuthenticated: false,
-        user: null,
-      );
-    } catch (e) {
-      state = state.copyWith(isLoading: false, errorMessage: e.toString());
+      state = state.copyWith(user: const AsyncValue.data(null));
+    } catch (e, st) {
+      state = state.copyWith(user: AsyncValue.error(e, st));
     }
   }
 }
+
+/// --------------------
+/// Auth Provider
+/// --------------------
+final authProvider = StateNotifierProvider<AuthNotifier, AuthState>((ref) {
+  return AuthNotifier(ref);
+});

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:partner/app/domain/models/user_model.dart';
 import 'package:partner/app/presentation/auth/providers/auth_provider.dart';
 import 'package:partner/core/constants/app_constants.dart';
 import 'package:partner/core/utils/app_utils.dart';
@@ -30,40 +31,44 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
     super.dispose();
   }
 
-  void _register() async {
+  void _register() {
     if (_formKey.currentState!.validate()) {
-      // Close keyboard
       FocusScope.of(context).unfocus();
-
-      // Get form values
-      final name = _nameController.text.trim();
-      final email = _emailController.text.trim();
-      final password = _passwordController.text;
-
-      // Call register method from auth provider
-      await ref
+      ref
           .read(authProvider.notifier)
-          .register(name: name, email: email, password: password);
-
-      // Check if registration was successful
-      final authState = ref.read(authProvider);
-      if (authState.errorMessage != null) {
-        // Show error message if registration failed
-        if (context.mounted) {
-          AppUtils.showSnackBar(
-            context,
-            message: authState.errorMessage!,
-            backgroundColor: Theme.of(context).colorScheme.error,
+          .register(
+            name: _nameController.text.trim(),
+            email: _emailController.text.trim(),
+            password: _passwordController.text,
           );
-        }
-      }
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    // Watch auth state
-    final authState = ref.watch(authProvider);
+    // Watch the async user state
+    final userState = ref.watch(authProvider.select((s) => s.user));
+
+    // Listen for errors or successful registration
+    ref.listen<AsyncValue<UserModel?>>(authProvider.select((s) => s.user), (
+      previous,
+      next,
+    ) {
+      next.whenOrNull(
+        error: (err, st) {
+          AppUtils.showSnackBar(
+            context,
+            message: err.toString(),
+            backgroundColor: Theme.of(context).colorScheme.error,
+          );
+        },
+        data: (user) {
+          if (user != null) {
+            context.go(AppConstants.homeRoute);
+          }
+        },
+      );
+    });
 
     return Scaffold(
       appBar: AppBar(title: const Text('Register')),
@@ -74,7 +79,6 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
             child: Form(
               key: _formKey,
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   const Icon(Icons.flutter_dash, size: 80, color: Colors.blue),
@@ -103,12 +107,9 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                       hintText: 'Enter your full name',
                       prefixIcon: Icon(Icons.person_outline),
                     ),
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return 'Please enter your name';
-                      }
-                      return null;
-                    },
+                    validator: (value) => value == null || value.isEmpty
+                        ? 'Please enter your name'
+                        : null,
                   ),
                   const SizedBox(height: 16),
                   TextFormField(
@@ -155,7 +156,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                         return 'Please enter your password';
                       }
                       if (value.length < 6) {
-                        return 'Password must be at least 6 characters long';
+                        return 'Password must be at least 6 characters';
                       }
                       return null;
                     },
@@ -194,13 +195,13 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                   ),
                   const SizedBox(height: 24),
                   ElevatedButton(
-                    onPressed: authState.isLoading ? null : _register,
+                    onPressed: userState.isLoading ? null : _register,
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       backgroundColor: Theme.of(context).colorScheme.primary,
                       foregroundColor: Theme.of(context).colorScheme.onPrimary,
                     ),
-                    child: authState.isLoading
+                    child: userState.isLoading
                         ? const SizedBox(
                             height: 20,
                             width: 20,
@@ -224,9 +225,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                         ),
                       ),
                       TextButton(
-                        onPressed: () {
-                          context.go(AppConstants.loginRoute);
-                        },
+                        onPressed: () => context.go(AppConstants.loginRoute),
                         child: const Text('Login'),
                       ),
                     ],

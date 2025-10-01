@@ -88,7 +88,7 @@ class AdvancedImage extends ConsumerStatefulWidget {
   final Color? placeholderColor;
 
   const AdvancedImage({
-    Key? key,
+    super.key,
     required this.imageUrl,
     this.width,
     this.height,
@@ -98,7 +98,7 @@ class AdvancedImage extends ConsumerStatefulWidget {
     this.useThumbnailPreview = true,
     this.fadeInDuration = const Duration(milliseconds: 300),
     this.placeholderColor,
-  }) : super(key: key);
+  });
 
   @override
   ConsumerState<AdvancedImage> createState() => _AdvancedImageState();

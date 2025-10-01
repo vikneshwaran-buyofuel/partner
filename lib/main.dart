@@ -2,11 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:partner/core/constants/app_constants.dart';
-import 'package:partner/core/providers/storage_providers.dart';
 import 'package:partner/app/router/app_router.dart';
 import 'package:partner/core/theme/app_theme.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
