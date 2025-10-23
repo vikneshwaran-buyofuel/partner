@@ -2,8 +2,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:partner/app/domain/controllers/auth/auth_controller.dart';
 import 'package:partner/app/domain/models/user_model.dart';
-import 'package:partner/app/providers/api_provider.dart';
-import 'package:partner/app/providers/storage_providers.dart';
+import 'package:partner/app/common_providers/api_provider.dart';
+import 'package:partner/app/common_providers/storage_providers.dart';
 
 /// --------------------
 /// Auth State

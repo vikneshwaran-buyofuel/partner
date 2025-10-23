@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:partner/app/domain/models/user_model.dart';
 import 'package:partner/app/presentation/auth/providers/auth_provider.dart';
-import 'package:partner/core/constants/app_constants.dart';
+import 'package:partner/app/router/route_constants.dart';
 import 'package:partner/core/utils/app_utils.dart';
 
 class RegisterScreen extends ConsumerStatefulWidget {
@@ -64,7 +64,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
         },
         data: (user) {
           if (user != null) {
-            context.go(AppConstants.homeRoute);
+            context.go(RouteConstants.homeRoute);
           }
         },
       );
@@ -225,7 +225,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                         ),
                       ),
                       TextButton(
-                        onPressed: () => context.go(AppConstants.loginRoute),
+                        onPressed: () => context.go(RouteConstants.loginRoute),
                         child: const Text('Login'),
                       ),
                     ],

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:partner/app/common_widgets/buttons/CustomButton.dart';
 import 'package:partner/app/domain/models/user_model.dart';
 import 'package:partner/app/presentation/auth/providers/auth_provider.dart';
-import 'package:partner/core/constants/app_constants.dart';
+import 'package:partner/app/router/route_constants.dart';
+import 'package:partner/core/constants/enum.dart';
 import 'package:partner/core/utils/app_utils.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
@@ -54,7 +56,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
         },
         data: (user) {
           if (user != null) {
-            context.go(AppConstants.homeRoute);
+            context.go(RouteConstants.homeRoute);
           }
         },
       );
@@ -134,23 +136,31 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     ),
                   ),
                   const SizedBox(height: 24),
-                  ElevatedButton(
-                    onPressed: userState.isLoading ? null : _login,
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(vertical: 16),
-                      backgroundColor: Theme.of(context).colorScheme.primary,
-                      foregroundColor: Theme.of(context).colorScheme.onPrimary,
-                    ),
-                    child: userState.isLoading
-                        ? const SizedBox(
-                            height: 20,
-                            width: 20,
-                            child: CircularProgressIndicator(
-                              strokeWidth: 2,
-                              color: Colors.white,
-                            ),
-                          )
-                        : const Text('Log In'),
+                  // ElevatedButton(
+                  //   onPressed: userState.isLoading ? null : _login,
+                  //   style: ElevatedButton.styleFrom(
+                  //     padding: const EdgeInsets.symmetric(vertical: 16),
+                  //     backgroundColor: Theme.of(context).colorScheme.primary,
+                  //     foregroundColor: Theme.of(context).colorScheme.onPrimary,
+                  //   ),
+                  //   child: userState.isLoading
+                  //       ? const SizedBox(
+                  //           height: 20,
+                  //           width: 20,
+                  //           child: CircularProgressIndicator(
+                  //             strokeWidth: 2,
+                  //             color: Colors.white,
+                  //           ),
+                  //         )
+                  //       : const Text('Log In'),
+                  // ),
+                  CustomButton(
+                    onPressed: _login,
+                    isLoading: userState.isLoading,
+                    variant: ButtonVariant.primary,
+                  
+                    size: ButtonSize.xsmall,
+                   title : 'Log In',
                   ),
                   const SizedBox(height: 16),
                   Row(
@@ -163,7 +173,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         ),
                       ),
                       TextButton(
-                        onPressed: () => context.go(AppConstants.registerRoute),
+                        onPressed: () => context.go(RouteConstants.registerRoute),
                         child: const Text('Register'),
                       ),
                     ],
