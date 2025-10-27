@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:partner/app/presentation/app_layout/appBar/custom_appBar.dart';
+import 'package:partner/app/common_widgets/app_layout/appBar/custom_appBar.dart';
 import 'package:partner/app/common_widgets/buttons/CustomButton.dart';
 import 'package:partner/app/common_widgets/inputs/custom_InputField.dart';
 import 'package:partner/core/constants/enum.dart';
@@ -75,7 +75,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                 isLoading: _isLoading,
                 variant: ButtonVariant.primary,
                 size: ButtonSize.large,
-                fullWidth: true,
+            
               ),
             ],
           ),

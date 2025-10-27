@@ -1,38 +1,48 @@
 import 'package:flutter/material.dart';
+import 'package:partner/app/common_widgets/Text/custom_text.dart';
+import 'package:partner/core/constants/app_colors.dart';
 import 'package:partner/core/constants/enum.dart';
+import 'package:partner/core/theme/app_theme.dart';
+import 'package:partner/core/utils/app_utils.dart';
 
 class CustomButton extends StatelessWidget {
   final String title;
   final VoidCallback? onPressed;
   final ButtonVariant variant;
-  final ButtonSize size;
+  final Color? fillcolor;
+  final ButtonSize? size;
   final double? height;
   final double? width;
-  final bool fullWidth;
   final bool isLoading;
   final Widget? leadingIcon;
   final Widget? trailingIcon;
   final EdgeInsetsGeometry? padding;
+  final bool? isDisabled;
   final BorderRadius? borderRadius;
+  final bool? isSelected;
+  final TextVariant fontVarient;
 
   const CustomButton({
     super.key,
     required this.title,
     this.onPressed,
     this.variant = ButtonVariant.primary,
-    this.size = ButtonSize.medium,
+    this.fillcolor,
+    this.size,
     this.height,
     this.width,
-    this.fullWidth = false,
     this.isLoading = false,
+    this.isDisabled = false,
+    this.isSelected = true,
     this.leadingIcon,
     this.trailingIcon,
     this.padding,
     this.borderRadius,
+    this.fontVarient = TextVariant.labelMedium,
   });
 
-  // Height mapping
-  double get _defaultHeight {
+  // Height mapping - only used when size is provided
+  double _getHeightForSize(ButtonSize size) {
     switch (size) {
       case ButtonSize.xsmall:
         return 27.0;
@@ -41,42 +51,26 @@ class CustomButton extends StatelessWidget {
       case ButtonSize.medium:
         return 46.0;
       case ButtonSize.large:
-        return 46.0; // keep same as medium unless overridden
+        return 46.0;
     }
   }
 
-  // Width mapping
-  double? get _defaultWidth {
-    if (fullWidth) return double.infinity;
-
+  // Width mapping - only used when size is provided
+  double _getWidthForSize(ButtonSize size) {
     switch (size) {
       case ButtonSize.xsmall:
-        return width ?? 136.0; // dynamic if provided
+        return 136.0;
       case ButtonSize.small:
-        return width ?? 162.5;
+        return 162.5;
       case ButtonSize.medium:
-        return width ?? 178.5;
+        return 178.5;
       case ButtonSize.large:
-        return width ?? 361.0;
+        return 361.0;
     }
   }
 
-  // Font size mapping
-  double get _fontSize {
-    switch (size) {
-      case ButtonSize.xsmall:
-        return 12.0;
-      case ButtonSize.small:
-        return 13.0;
-      case ButtonSize.medium:
-        return 15.0;
-      case ButtonSize.large:
-        return 16.0;
-    }
-  }
-
-  // Default padding
-  EdgeInsetsGeometry get _defaultPadding {
+  // Padding mapping - only used when size is provided
+  EdgeInsetsGeometry _getPaddingForSize(ButtonSize size) {
     switch (size) {
       case ButtonSize.xsmall:
         return const EdgeInsets.symmetric(horizontal: 10, vertical: 4);
@@ -91,35 +85,59 @@ class CustomButton extends StatelessWidget {
 
   // Background color
   Color _getBackgroundColor(BuildContext context) {
-    final theme = Theme.of(context);
-    if (onPressed == null) return Colors.grey.shade300;
-
+    if (onPressed == null || isDisabled == true || isSelected == false) {
+      return Colors.grey.shade300;
+    }
+    if (fillcolor != null) return fillcolor!;
+    
     switch (variant) {
       case ButtonVariant.primary:
-        return theme.primaryColor;
+        return Theme.of(context).primaryColor;
       case ButtonVariant.secondary:
-        return Colors.grey.shade200;
+        return Colors.grey;
       case ButtonVariant.outline:
-      case ButtonVariant.ghost:
+      case ButtonVariant.icon:
         return Colors.transparent;
-      case ButtonVariant.destructive:
+      case ButtonVariant.danger:
         return Colors.red;
+      case ButtonVariant.success:
+        return Colors.green;
+      case ButtonVariant.warning:
+        return Colors.orange;
+      case ButtonVariant.info:
+        return Colors.teal;
+      case ButtonVariant.disabled:
+        return Colors.grey.shade400;
+      case ButtonVariant.fab:
+        return Colors.blue;
+      case ButtonVariant.link:
+        return Colors.blueAccent;
+      default:
+        return Colors.blue;
     }
   }
 
   // Text color
   Color _getTextColor(BuildContext context) {
-    if (onPressed == null) return Colors.grey.shade600;
+    if (onPressed == null || isDisabled == true) {
+      return AppColors.black;
+    }
 
     switch (variant) {
       case ButtonVariant.primary:
-      case ButtonVariant.destructive:
+      case ButtonVariant.danger:
+      case ButtonVariant.success:
+      case ButtonVariant.warning:
+      case ButtonVariant.info:
+      case ButtonVariant.fab:
         return Colors.white;
+      case ButtonVariant.link:
+        return Colors.blue;
       case ButtonVariant.secondary:
-        return Colors.black87;
       case ButtonVariant.outline:
-      case ButtonVariant.ghost:
-        return Theme.of(context).primaryColor;
+      case ButtonVariant.icon:
+      default:
+        return Colors.black;
     }
   }
 
@@ -138,63 +156,83 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final buttonWidth = fullWidth ? double.infinity : width ?? _defaultWidth;
-    final buttonHeight = height ?? _defaultHeight;
-    final buttonPadding = padding ?? _defaultPadding;
     final buttonBorderRadius = borderRadius ?? BorderRadius.circular(8.0);
+    final isEnabled = !(isDisabled == true || isLoading);
+    
+    // Determine final dimensions and padding
+    final double? finalWidth = width ?? (size != null ? _getWidthForSize(size!) : null);
+    final double? finalHeight = height ?? (size != null ? _getHeightForSize(size!) : null);
+    final EdgeInsetsGeometry finalPadding = padding ?? 
+    (size != null ? _getPaddingForSize(size!) : const EdgeInsets.symmetric(horizontal: 12, vertical: 4));
+    final buttonStyle = ElevatedButton.styleFrom(
+      backgroundColor: _getBackgroundColor(context),
+      foregroundColor: _getTextColor(context),
+      padding: finalPadding,
+      elevation: variant == ButtonVariant.primary && onPressed != null ? 2 : 0,
+      shadowColor: variant == ButtonVariant.primary
+          ? Colors.black26
+          : Colors.transparent,
+      shape: RoundedRectangleBorder(
+      borderRadius: buttonBorderRadius,
+        side: _getBorderSide(context) ?? BorderSide.none,
+      ),
+      minimumSize: finalWidth != null || finalHeight != null 
+          ? Size(finalWidth ?? 0, finalHeight ?? 0) 
+          : Size.zero,
+      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    );
 
-    return SizedBox(
-      width: buttonWidth,
-      height: buttonHeight,
-      child: ElevatedButton(
-        onPressed: isLoading ? null : onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: _getBackgroundColor(context),
-          foregroundColor: _getTextColor(context),
-          padding: buttonPadding,
-          elevation: variant == ButtonVariant.primary && onPressed != null
-              ? 2
-              : 0,
-          shadowColor: variant == ButtonVariant.primary
-              ? Colors.black26
-              : Colors.transparent,
-          shape: RoundedRectangleBorder(
-            borderRadius: buttonBorderRadius,
-            side: _getBorderSide(context) ?? BorderSide.none,
-          ),
-        ),
-        child: isLoading
-            ? SizedBox(
-                width: 20,
-                height: 20,
-                child: CircularProgressIndicator(
-                  strokeWidth: 2,
-                  valueColor: AlwaysStoppedAnimation<Color>(
-                    _getTextColor(context),
-                  ),
-                ),
-              )
-            : Row(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  if (leadingIcon != null) ...[
-                    leadingIcon!,
-                    const SizedBox(width: 8),
-                  ],
-                  Text(
-                    title,
-                    style: TextStyle(
-                      fontSize: _fontSize,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  if (trailingIcon != null) ...[
-                    const SizedBox(width: 8),
-                    trailingIcon!,
-                  ],
-                ],
+    final buttonChild = isLoading
+        ? SizedBox(
+            width: 16,
+            height: 16,
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+              valueColor: AlwaysStoppedAnimation<Color>(
+                _getTextColor(context),
               ),
+            ),
+          )
+        : Row(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              if (leadingIcon != null) ...[
+                leadingIcon!,
+                const SizedBox(width: 4),
+              ],
+              CustomText(
+                title: title,
+                
+                style: AppUtils.getThemedTextStyle(
+                  context,
+                  fontVarient,
+                )?.copyWith(color: _getTextColor(context)),
+              ),
+              if (trailingIcon != null) ...[
+                const SizedBox(width: 4),
+                trailingIcon!,
+              ],
+            ],
+          );
+
+    // If no size constraints provided, return button without SizedBox wrapper
+    if (finalWidth == null && finalHeight == null) {
+      return ElevatedButton(
+        onPressed: isEnabled ? onPressed : null,
+        style: buttonStyle,
+        child: buttonChild,
+      );
+    }
+
+    // Otherwise, wrap with SizedBox for size constraints
+    return SizedBox(
+      width: finalWidth,
+      height: finalHeight,
+      child: ElevatedButton(
+        onPressed: isEnabled ? onPressed : null,
+        style: buttonStyle,
+        child: buttonChild,
       ),
     );
   }

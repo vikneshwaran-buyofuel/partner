@@ -1,0 +1,4050 @@
+{
+    "status": "success",
+    "invoices": [
+        {
+            "_id": "689c550a5ddceaed801e028f",
+            "order": {
+                "_id": "683d6bbf2d90cd240d009ded",
+                "enquiry": "683d6a102d90cd240d008b71",
+                "gstPercentage": 0,
+                "transportCharges": 0,
+                "orderRefNo": 2951
+            },
+            "product": {
+                "_id": "67d3c581a80b9d4e93a904b3",
+                "name": "Bio Briquettes Grade B"
+            },
+            "buyer": {
+                "_id": "67f0b5329f8a1f2d48485fc2",
+                "name": "BuyoBuyer _ AI Test",
+                "gstNumber": "27AAACR5055K1Z7"
+            },
+            "seller": {
+                "_id": "67ef5fe59f8a1f2d4846b4a5",
+                "name": "BuyoSeller-AI Test",
+                "gstNumber": "09AAICP7470Q1ZG",
+                "kycDocument": {
+                    "panName": "Zoho Commodities",
+                    "updatedAt": "2025-10-06T06:15:09.833Z",
+                    "addressProof": "businesses/bd1528e70abda9b6136dc1283aaa25d71759731309819.pdf",
+                    "bankProof": "businesses/ca8956c5c7283757bdde272dac8331961759731309821.pdf",
+                    "gstCertificate": "businesses/8066f38a1916977d22755717cc526dcc1759731309822.pdf",
+                    "panAttachment": "businesses/47ba4cdd5c3aab296d34fb15315030fb1759731309824.pdf"
+                }
+            },
+            "unit": "64b7f81ee6e9664249b02240",
+            "subUnit": "MT",
+            "currency": "INR",
+            "purchasingPrice": 400000,
+            "tradingPrice": 450000,
+            "deliveryAddress": {
+                "line1": "5 5, TTC Industrial Area Reliance Corporate Park",
+                "line2": "Thane Belapur Road",
+                "city": "Thane",
+                "state": "Maharashtra",
+                "country": "India",
+                "pincode": "400701",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        73.25,
+                        19.33333
+                    ]
+                },
+                "_id": "68835d59153aabc0646b00fb",
+                "createdAt": "2025-09-05T03:53:47.170Z",
+                "updatedAt": "2025-09-05T03:53:47.170Z"
+            },
+            "deliveryAddressId": "67f0b5779f8a1f2d48486028",
+            "pickupAddress": {
+                "line1": "B-121",
+                "line2": "Sector-5",
+                "city": "Gautambuddha Nagar",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "pincode": "201301",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        0,
+                        0
+                    ]
+                },
+                "_id": "68835d59153aabc0646b00fa",
+                "createdAt": "2025-09-05T03:53:47.170Z",
+                "updatedAt": "2025-09-05T03:53:47.170Z"
+            },
+            "pickupAddressId": "67ef5fe19f8a1f2d4846b496",
+            "purchaseBillNo": "12",
+            "purchaseCreditTerm": 0,
+            "salesCreditTerm": 0,
+            "dispatchedQty": 2.75,
+            "receivedQty": 2.75,
+            "dispatchedOn": "2025-08-13T09:03:59.263Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "sales",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "689c550a5ddceaed801e028e",
+                "updatedAt": "2025-08-13T09:04:10.065Z",
+                "createdAt": "2025-08-13T09:04:10.065Z"
+            },
+            "metadata": {
+                "purchaseOrderNo": "PO/BUYO/AI/TEST/01",
+                "purchasePayment": 0,
+                "salesPayment": 1237500,
+                "transportPayment": 0,
+                "_id": "689c550a5ddceaed801e0293",
+                "createdAt": "2025-08-13T09:04:10.066Z",
+                "updatedAt": "2025-09-17T05:01:38.146Z",
+                "salesTradeFinancePayment": 0
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-08-13T09:04:10.055Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "689c550a5ddceaed801e0294",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-09-05T03:53:47.167Z",
+                    "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                    "_id": "68ba5ecbaa63879c6e8410e8",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-09-09T09:46:00.978Z",
+                    "updatedBy": "67e3a6ab29e352d9da5dac17",
+                    "_id": "68bff7588ba179f0cf79fd8b",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-08-13T09:04:10.055Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "689c550a5ddceaed801e0295",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-08-13T09:03:59.263Z",
+                    "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                    "_id": "68ba5ecbaa63879c6e8410e9",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-08-13T09:03:59.263Z",
+                    "updatedBy": "67e3a6ab29e352d9da5dac17",
+                    "_id": "68bff7418ba179f0cf79fbe9",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-08-13T09:03:59.263Z",
+                    "updatedBy": "67e3a6ab29e352d9da5dac17",
+                    "_id": "68bff7588ba179f0cf79fd91",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-08-13T09:04:10.055Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "689c550a5ddceaed801e0296",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-09-09T09:46:00.978Z",
+                    "updatedBy": "67e3a6ab29e352d9da5dac17",
+                    "_id": "68bff7588ba179f0cf79fd8d",
+                    "createdAt": "2025-09-09T09:46:00.979Z",
+                    "updatedAt": "2025-09-09T09:46:00.979Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-09-17T05:01:38.145Z",
+                    "_id": "68ca40b2a9df4d87018a175e"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "weightSlip",
+                    "updatedOn": "2025-09-05T03:53:48.609Z",
+                    "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                    "_id": "68ba5eccaa63879c6e84115d",
+                    "createdAt": "2025-09-05T03:53:48.610Z",
+                    "updatedAt": "2025-09-05T03:53:48.610Z"
+                },
+                {
+                    "attachment": "weightSlip",
+                    "updatedOn": "2025-09-04T12:19:46.311Z",
+                    "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                    "_id": "68b983e2aa63879c6e8401e0",
+                    "createdAt": "2025-09-05T03:53:48.610Z",
+                    "updatedAt": "2025-09-05T03:53:48.610Z"
+                },
+                {
+                    "attachment": "weightSlip",
+                    "updatedOn": "2025-09-04T11:30:21.546Z",
+                    "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                    "_id": "68b9784daa63879c6e83f969",
+                    "createdAt": "2025-09-05T03:53:48.610Z",
+                    "updatedAt": "2025-09-05T03:53:48.610Z"
+                },
+                {
+                    "attachment": "weightSlip",
+                    "updatedOn": "2025-09-04T11:28:50.548Z",
+                    "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                    "_id": "68b977f2aa63879c6e83f7ac",
+                    "createdAt": "2025-09-05T03:53:48.610Z",
+                    "updatedAt": "2025-09-05T03:53:48.610Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-09-09T09:46:04.469Z",
+                    "updatedBy": "67e3a6ab29e352d9da5dac17",
+                    "_id": "68bff75c8ba179f0cf7a0491",
+                    "createdAt": "2025-09-09T09:46:04.471Z",
+                    "updatedAt": "2025-09-09T09:46:04.471Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-08-13T09:04:10.066Z",
+            "updatedAt": "2025-09-17T05:01:38.146Z",
+            "dispatchRefNo": 4725,
+            "dispatchTrackingNo": "4725028F",
+            "__v": 0,
+            "updatedBy": "67e3a6ab29e352d9da5dac17",
+            "billingAddress": {
+                "line1": "A-16 UPPER GROUND FLOOR",
+                "line2": "INDER PURI",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "pincode": "110012",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        77.22445,
+                        28.63576
+                    ]
+                },
+                "_id": "68a35deabea05e0b028ed7e3",
+                "createdAt": "2025-08-21T14:31:46.996Z",
+                "updatedAt": "2025-08-21T14:31:46.996Z"
+            },
+            "billingAddressId": "68a35deabea05e0b028ed7e3",
+            "dispatchFromAddress": {
+                "city": "Coimbatore",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "641668",
+                "_id": "68a72dd21f566e172f771230",
+                "createdAt": "2025-08-21T14:31:46.996Z",
+                "updatedAt": "2025-08-21T14:31:46.996Z"
+            },
+            "salesTradeFinance": {
+                "invoiceDate": "2025-08-25T00:00:00.000Z",
+                "invoiceNo": "1110",
+                "updatedAt": "2025-08-25T12:12:07.547Z"
+            },
+            "purchase": {
+                "updatedAt": "2025-09-05T03:53:48.610Z",
+                "weightSlip": "dispatches/97391770235aadf295466d0f3cb655881757044428596.jpg"
+            },
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "689c550a5ddceaed801e028f",
+                    "dispatchRefNo": 4725,
+                    "dispatchedOn": "2025-08-13T09:03:59.263Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "Awaiting Loading",
+                            "updatedOn": "2025-08-13T09:04:10.055Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "689c550a5ddceaed801e0295",
+                            "createdAt": "2025-09-09T09:46:03.443Z",
+                            "updatedAt": "2025-09-09T09:46:03.443Z"
+                        },
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-08-13T09:03:59.263Z",
+                            "updatedBy": "67ef5fe49f8a1f2d4846b498",
+                            "_id": "68ba5ecbaa63879c6e8410e9",
+                            "createdAt": "2025-09-09T09:46:03.443Z",
+                            "updatedAt": "2025-09-09T09:46:03.443Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-08-13T09:03:59.263Z",
+                            "updatedBy": "67e3a6ab29e352d9da5dac17",
+                            "_id": "68bff7418ba179f0cf79fbe9",
+                            "createdAt": "2025-09-09T09:46:03.443Z",
+                            "updatedAt": "2025-09-09T09:46:03.443Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-08-13T09:03:59.263Z",
+                            "updatedBy": "67e3a6ab29e352d9da5dac17",
+                            "_id": "68bff7588ba179f0cf79fd91",
+                            "createdAt": "2025-09-09T09:46:03.443Z",
+                            "updatedAt": "2025-09-09T09:46:03.443Z"
+                        }
+                    ],
+                    "productId": "67d3c581a80b9d4e93a904b3",
+                    "productName": "Bio Briquettes Grade B",
+                    "productImage": "products/90e497739a7b421f1d7426b73a742c6b1741931905842.png",
+                    "quantity": 2.75,
+                    "deliveryAddress": {
+                        "city": "Thane",
+                        "state": "Maharashtra",
+                        "country": "India",
+                        "pincode": "400701",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                73.25,
+                                19.33333
+                            ]
+                        },
+                        "_id": "68bff75b8ba179f0cf7a0477"
+                    },
+                    "pickupAddress": {
+                        "city": "Gautambuddha Nagar",
+                        "state": "Uttar Pradesh",
+                        "country": "India",
+                        "pincode": "201301",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                0,
+                                0
+                            ]
+                        },
+                        "_id": "68bff75b8ba179f0cf7a0478"
+                    },
+                    "_id": "68bff75b8ba179f0cf7a0472"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/5e7f88502d5275c431a1a7213b9714bb1757411164451.png",
+                "updatedAt": "2025-09-09T09:46:04.471Z"
+            },
+            "purchaseOrder": {
+                "_id": "683d6a102d90cd240d008b71",
+                "gstPercentage": 18
+            },
+            "payments": [
+                {
+                    "_id": "68bff7908ba179f0cf7a0e2a",
+                    "transactionRefNo": "N/A",
+                    "order": "683d6bbf2d90cd240d009ded",
+                    "dispatch": "689c550a5ddceaed801e028f",
+                    "amount": 500000,
+                    "currency": "INR",
+                    "attachments": [
+                        "payments/8fed7404280bb1886bcb905f7b0665f91757411218666.png"
+                    ],
+                    "paymentType": "Sales",
+                    "paymentMode": "Netbanking",
+                    "paymentDate": "2025-09-09T09:46:00.000Z",
+                    "type": "Manual",
+                    "status": "Added",
+                    "createdBy": "681203a873008a08f2045d8f",
+                    "deleted": false,
+                    "updates": [],
+                    "createdAt": "2025-09-09T09:46:56.934Z",
+                    "updatedAt": "2025-09-09T09:46:58.676Z",
+                    "paymentRefNo": 1723,
+                    "__v": 0,
+                    "updatedBy": "681203a873008a08f2045d8f"
+                },
+                {
+                    "_id": "68ca40b2a9df4d87018a173e",
+                    "transactionRefNo": "8",
+                    "order": "683d6bbf2d90cd240d009ded",
+                    "dispatch": "689c550a5ddceaed801e028f",
+                    "amount": 737500,
+                    "currency": "INR",
+                    "attachments": [],
+                    "paymentType": "Sales",
+                    "paymentMode": "Cash",
+                    "paymentDate": "2025-09-17T05:01:34.063Z",
+                    "type": "Manual",
+                    "status": "Added",
+                    "createdBy": "67e3a6ab29e352d9da5dac17",
+                    "deleted": false,
+                    "updates": [],
+                    "createdAt": "2025-09-17T05:01:38.091Z",
+                    "updatedAt": "2025-09-17T05:01:38.091Z",
+                    "paymentRefNo": 1744,
+                    "__v": 0
+                }
+            ],
+            "purchasingPriceValue": 400000,
+            "tradingPriceValue": 450000,
+            "totalPayable": 1100000,
+            "pendingPayable": 1100000,
+            "pendingReceivable": 222750,
+            "tpPayable": 1460250,
+            "howMuchPercentPaid": 84.7457627118644,
+            "qtyForTpCalculation": 2.75,
+            "priceForTpCalculation": 450000,
+            "tpGst": 0.18,
+            "tpGstPercentage": 18,
+            "purchasePrice": 450000,
+            "purchasePriceBeforeGst": 1237500,
+            "purchaseGstAmt": 222750,
+            "purchasePriceAfterGst": 1460250,
+            "afterMarginPrice": 495000,
+            "invoiceTotalPrice": 495000,
+            "afterMarginPriceBeforeGst": 1361250,
+            "afterMarginGstAmt": 245025,
+            "afterMarginPriceAfterGst": 1606275,
+            "invoiceStatus": "Pending Collection",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 1100000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 1100000
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 1237500
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (18%)",
+                    "value": 222750
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 1460250
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 1100000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 1460250
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 1237500
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 1100000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 222750
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 1460250
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 1361250
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 1237500
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 222750
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 1361250
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 1237500
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 450000,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 495000
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 450000,
+                    "qty": 2.75,
+                    "priceBeforeGst": 1237500,
+                    "gstPercentage": 18,
+                    "gst": 222750,
+                    "total": 1460250
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 495000,
+                    "qty": 2.75,
+                    "priceBeforeGst": 1361250,
+                    "gstPercentage": 18,
+                    "gst": 245025,
+                    "total": 1606275
+                },
+                "totalInterest": 368775,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "purchasePaymentDate": "2025-09-17T05:01:34.063Z",
+                "dueDate": "2025-10-02T05:01:34.063Z"
+            },
+            "orderRefNo": 2951,
+            "receivable": 1361250,
+            "payable": 1100000,
+            "summaryValue": 1361250
+        },
+        {
+            "_id": "6889fe40c959cd299cf180bd",
+            "order": {
+                "_id": "68888218855996311e78d2fd",
+                "enquiry": "68888214855996311e78d0c6",
+                "gstPercentage": 0,
+                "transportCharges": 0,
+                "orderRefNo": 3540
+            },
+            "product": {
+                "_id": "643cf4ea766783c1d5b10f2d",
+                "name": "UCO",
+                "hsnCode": "15180039"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f81ee6e9664249b02240",
+            "subUnit": "MT",
+            "currency": "INR",
+            "purchasingPrice": 380769,
+            "tradingPrice": 450000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "6889d361c959cd299cefd329",
+                "createdAt": "2025-07-30T08:10:09.443Z",
+                "updatedAt": "2025-07-30T11:13:04.065Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "6889d361c959cd299cefd328",
+                "createdAt": "2025-07-30T08:10:09.443Z",
+                "updatedAt": "2025-07-30T11:13:04.065Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "12",
+            "purchaseCreditTerm": 0,
+            "salesCreditTerm": 15,
+            "dispatchedQty": 1.1,
+            "receivedQty": 1.1,
+            "dispatchedOn": "2025-07-30T11:12:47.538Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "6889fe40c959cd299cf180bc",
+                "updatedAt": "2025-07-30T11:13:04.065Z",
+                "createdAt": "2025-07-30T11:13:04.065Z"
+            },
+            "metadata": {
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "6889fe40c959cd299cf180c1",
+                "createdAt": "2025-07-30T11:13:04.065Z",
+                "updatedAt": "2025-07-30T11:13:04.065Z"
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-07-30T11:13:04.057Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe40c959cd299cf180c2",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                },
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-30T11:14:16.140Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe88c959cd299cf182c0",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-07-30T11:14:16.934Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe88c959cd299cf18335",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-07-30T11:13:04.057Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe40c959cd299cf180c3",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                },
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-30T11:13:04.057Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe88c959cd299cf182c2",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-07-30T11:13:04.057Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe88c959cd299cf182fc",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-07-30T11:13:04.057Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe88c959cd299cf1833b",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-30T11:13:04.057Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe40c959cd299cf180c4",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-07-30T11:14:16.934Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe88c959cd299cf18337",
+                    "createdAt": "2025-07-30T11:14:16.935Z",
+                    "updatedAt": "2025-07-30T11:14:16.935Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-30T11:13:05.573Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe41c959cd299cf180d1",
+                    "createdAt": "2025-07-30T11:13:05.575Z",
+                    "updatedAt": "2025-07-30T11:13:05.575Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-07-30T11:14:19.093Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889fe8bc959cd299cf189aa",
+                    "createdAt": "2025-07-30T11:14:19.094Z",
+                    "updatedAt": "2025-07-30T11:14:19.094Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-30T11:13:04.066Z",
+            "updatedAt": "2025-07-30T11:14:19.094Z",
+            "dispatchRefNo": 4687,
+            "dispatchTrackingNo": "468780BD",
+            "__v": 0,
+            "purchase": {
+                "invoice": "dispatches/03fb37b822ca99e5f7bf0e5d280a07031753873985555.pdf",
+                "updatedAt": "2025-07-30T11:13:05.575Z"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "6889fe40c959cd299cf180bd",
+                    "dispatchRefNo": 4687,
+                    "dispatchedOn": "2025-07-30T11:12:47.538Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "Awaiting Loading",
+                            "updatedOn": "2025-07-30T11:13:04.057Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889fe40c959cd299cf180c3",
+                            "createdAt": "2025-07-30T11:14:18.406Z",
+                            "updatedAt": "2025-07-30T11:14:18.406Z"
+                        },
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-07-30T11:13:04.057Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889fe88c959cd299cf182c2",
+                            "createdAt": "2025-07-30T11:14:18.406Z",
+                            "updatedAt": "2025-07-30T11:14:18.406Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-07-30T11:13:04.057Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889fe88c959cd299cf182fc",
+                            "createdAt": "2025-07-30T11:14:18.406Z",
+                            "updatedAt": "2025-07-30T11:14:18.406Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-07-30T11:13:04.057Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889fe88c959cd299cf1833b",
+                            "createdAt": "2025-07-30T11:14:18.406Z",
+                            "updatedAt": "2025-07-30T11:14:18.406Z"
+                        }
+                    ],
+                    "productId": "643cf4ea766783c1d5b10f2d",
+                    "productName": "UCO",
+                    "productImage": "products/9ef0ecd672ff6e52bac92c3dfe16e6e21681718518671.jpg",
+                    "quantity": 1.1,
+                    "deliveryAddress": {
+                        "city": "Chennai",
+                        "state": "Tamil Nadu",
+                        "country": "India",
+                        "pincode": "600002",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                80.27847,
+                                13.08784
+                            ]
+                        },
+                        "_id": "6889fe8ac959cd299cf18994"
+                    },
+                    "pickupAddress": {
+                        "city": "Ernakulam",
+                        "state": "Kerala",
+                        "country": "India",
+                        "pincode": "682016",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                76.5,
+                                10
+                            ]
+                        },
+                        "_id": "6889fe8ac959cd299cf18995"
+                    },
+                    "_id": "6889fe8ac959cd299cf1898f"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/f9bcb9d8c0db7a9ef5f6605d8c0d16a01753874059074.pdf",
+                "updatedAt": "2025-07-30T11:14:19.094Z"
+            },
+            "payments": [],
+            "purchasingPriceValue": 380769,
+            "tradingPriceValue": 450000,
+            "totalPayable": 418845.9,
+            "pendingPayable": 418845.9,
+            "pendingReceivable": 495000.00000000006,
+            "tpPayable": 418845.9,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 1.1,
+            "priceForTpCalculation": 380769,
+            "tpGst": 0,
+            "tpGstPercentage": 0,
+            "purchasePrice": 380769,
+            "purchasePriceBeforeGst": 418845.9,
+            "purchaseGstAmt": 0,
+            "purchasePriceAfterGst": 418845.9,
+            "afterMarginPrice": 418845.9,
+            "invoiceTotalPrice": 418845.9,
+            "afterMarginPriceBeforeGst": 460730.49000000005,
+            "afterMarginGstAmt": 0,
+            "afterMarginPriceAfterGst": 460730.49000000005,
+            "invoiceStatus": "Pending Payment",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 418845.9
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 418845.9
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 495000.00000000006
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 495000.00000000006
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 418845.9
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 495000.00000000006
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 418845.9
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 495000.00000000006
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 418845.9
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 460730.49000000005
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 418845.9
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 460730.49000000005
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 380769,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 418845.9
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 380769,
+                    "qty": 1.1,
+                    "priceBeforeGst": 418845.9,
+                    "gstPercentage": 0,
+                    "gst": 0,
+                    "total": 418845.9
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 418845.9,
+                    "qty": 1.1,
+                    "priceBeforeGst": 460730.49000000005,
+                    "gstPercentage": 0,
+                    "gst": 0,
+                    "total": 460730.49000000005
+                },
+                "totalInterest": 41884.590000000026,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3540,
+            "receivable": 460730.49000000005,
+            "payable": 418845.9,
+            "summaryValue": 418845.9
+        },
+        {
+            "_id": "6889d330c959cd299cefd195",
+            "order": {
+                "_id": "68888218855996311e78d2fd",
+                "enquiry": "68888214855996311e78d0c6",
+                "gstPercentage": 0,
+                "transportCharges": 0,
+                "orderRefNo": 3540
+            },
+            "product": {
+                "_id": "643cf4ea766783c1d5b10f2d",
+                "name": "UCO",
+                "hsnCode": "15180039"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f81ee6e9664249b02240",
+            "subUnit": "MT",
+            "currency": "INR",
+            "purchasingPrice": 380769,
+            "tradingPrice": 450000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "6889d361c959cd299cefd329",
+                "createdAt": "2025-07-30T08:10:09.473Z",
+                "updatedAt": "2025-07-30T08:10:09.473Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "6889d361c959cd299cefd328",
+                "createdAt": "2025-07-30T08:10:09.473Z",
+                "updatedAt": "2025-07-30T08:10:09.473Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "POBILLNO/UD9Q0909",
+            "purchaseCreditTerm": 0,
+            "salesCreditTerm": 15,
+            "dispatchedQty": 2.5,
+            "receivedQty": 2.5,
+            "dispatchedOn": "2025-07-30T08:09:10.375Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "6889d361c959cd299cefd32d",
+                "createdAt": "2025-07-30T08:10:09.453Z",
+                "updatedAt": "2025-07-30T08:10:09.453Z"
+            },
+            "metadata": {
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "6889d330c959cd299cefd199",
+                "createdAt": "2025-07-30T08:09:20.587Z",
+                "updatedAt": "2025-07-30T08:09:20.587Z"
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-07-30T08:09:20.580Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d330c959cd299cefd19a",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                },
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-30T11:39:19.355Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0467495445ce3397ec0d",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-07-30T11:39:20.192Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0468495445ce3397ec82",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-07-30T08:09:20.580Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d330c959cd299cefd19b",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                },
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-30T08:09:20.580Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0467495445ce3397ec0f",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-07-30T08:09:20.580Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0467495445ce3397ec49",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-07-30T08:09:20.580Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0468495445ce3397ec88",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-30T08:09:20.580Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d330c959cd299cefd19c",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-07-30T11:39:20.192Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0468495445ce3397ec84",
+                    "createdAt": "2025-07-30T11:39:20.193Z",
+                    "updatedAt": "2025-07-30T11:39:20.193Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-30T11:38:57.397Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a0451495445ce3397ea03",
+                    "createdAt": "2025-07-30T11:38:57.399Z",
+                    "updatedAt": "2025-07-30T11:38:57.399Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-07-30T11:39:23.258Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688a046b495445ce3397f2f7",
+                    "createdAt": "2025-07-30T11:39:23.259Z",
+                    "updatedAt": "2025-07-30T11:39:23.259Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-30T08:09:20.587Z",
+            "updatedAt": "2025-07-30T11:39:23.259Z",
+            "dispatchRefNo": 4682,
+            "dispatchTrackingNo": "4682D195",
+            "__v": 0,
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "productVariantSell": "6841403e2d90cd240d07e8e2",
+            "purchase": {
+                "invoice": "dispatches/1ca35012f7b2e49c53479686d4695db71753875537383.pdf",
+                "updatedAt": "2025-07-30T11:38:57.399Z"
+            },
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "6889d330c959cd299cefd195",
+                    "dispatchRefNo": 4682,
+                    "dispatchedOn": "2025-07-30T08:09:10.375Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "Awaiting Loading",
+                            "updatedOn": "2025-07-30T08:09:20.580Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889d330c959cd299cefd19b",
+                            "createdAt": "2025-07-30T11:39:22.090Z",
+                            "updatedAt": "2025-07-30T11:39:22.090Z"
+                        },
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-07-30T08:09:20.580Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688a0467495445ce3397ec0f",
+                            "createdAt": "2025-07-30T11:39:22.090Z",
+                            "updatedAt": "2025-07-30T11:39:22.090Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-07-30T08:09:20.580Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688a0467495445ce3397ec49",
+                            "createdAt": "2025-07-30T11:39:22.090Z",
+                            "updatedAt": "2025-07-30T11:39:22.090Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-07-30T08:09:20.580Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688a0468495445ce3397ec88",
+                            "createdAt": "2025-07-30T11:39:22.090Z",
+                            "updatedAt": "2025-07-30T11:39:22.090Z"
+                        }
+                    ],
+                    "productId": "643cf4ea766783c1d5b10f2d",
+                    "productName": "UCO",
+                    "productImage": "products/9ef0ecd672ff6e52bac92c3dfe16e6e21681718518671.jpg",
+                    "quantity": 2.5,
+                    "deliveryAddress": {
+                        "city": "Chennai",
+                        "state": "Tamil Nadu",
+                        "country": "India",
+                        "pincode": "600002",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                80.27847,
+                                13.08784
+                            ]
+                        },
+                        "_id": "688a046a495445ce3397f2e1"
+                    },
+                    "pickupAddress": {
+                        "city": "Ernakulam",
+                        "state": "Kerala",
+                        "country": "India",
+                        "pincode": "682016",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                76.5,
+                                10
+                            ]
+                        },
+                        "_id": "688a046a495445ce3397f2e2"
+                    },
+                    "_id": "688a046a495445ce3397f2dc"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/fdf584f4e768001a8531293c1d275c0a1753875563241.pdf",
+                "updatedAt": "2025-07-30T11:39:23.259Z"
+            },
+            "payments": [],
+            "purchasingPriceValue": 380769,
+            "tradingPriceValue": 450000,
+            "totalPayable": 951922.5,
+            "pendingPayable": 951922.5,
+            "pendingReceivable": 1125000,
+            "tpPayable": 951922.5,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 2.5,
+            "priceForTpCalculation": 380769,
+            "tpGst": 0,
+            "tpGstPercentage": 0,
+            "purchasePrice": 380769,
+            "purchasePriceBeforeGst": 951922.5,
+            "purchaseGstAmt": 0,
+            "purchasePriceAfterGst": 951922.5,
+            "afterMarginPrice": 418845.9,
+            "invoiceTotalPrice": 418845.9,
+            "afterMarginPriceBeforeGst": 1047114.75,
+            "afterMarginGstAmt": 0,
+            "afterMarginPriceAfterGst": 1047114.75,
+            "invoiceStatus": "Pending Payment",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 951922.5
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 951922.5
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 1125000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 1125000
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 951922.5
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 1125000
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 951922.5
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 1125000
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 951922.5
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 1047114.75
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 951922.5
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 1047114.75
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 380769,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 418845.9
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 380769,
+                    "qty": 2.5,
+                    "priceBeforeGst": 951922.5,
+                    "gstPercentage": 0,
+                    "gst": 0,
+                    "total": 951922.5
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 418845.9,
+                    "qty": 2.5,
+                    "priceBeforeGst": 1047114.75,
+                    "gstPercentage": 0,
+                    "gst": 0,
+                    "total": 1047114.75
+                },
+                "totalInterest": 95192.25,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3540,
+            "receivable": 1047114.75,
+            "payable": 951922.5,
+            "summaryValue": 951922.5
+        },
+        {
+            "_id": "6889d27dc959cd299cefcd4f",
+            "order": {
+                "_id": "68888218855996311e78d2fd",
+                "enquiry": "68888214855996311e78d0c6",
+                "gstPercentage": 0,
+                "transportCharges": 0,
+                "orderRefNo": 3540
+            },
+            "product": {
+                "_id": "643cf4ea766783c1d5b10f2d",
+                "name": "UCO",
+                "hsnCode": "15180039"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f81ee6e9664249b02240",
+            "subUnit": "MT",
+            "currency": "INR",
+            "purchasingPrice": 380769,
+            "tradingPrice": 450000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "6889d361c959cd299cefd329",
+                "createdAt": "2025-07-30T08:10:09.473Z",
+                "updatedAt": "2025-07-30T08:10:09.473Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "6889d361c959cd299cefd328",
+                "createdAt": "2025-07-30T08:10:09.473Z",
+                "updatedAt": "2025-07-30T08:10:09.473Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "124",
+            "dispatchedQty": 1.5,
+            "receivedQty": 0,
+            "dispatchedOn": "2025-07-30T08:06:10.743Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "metadata": {
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "6889d27dc959cd299cefcd52",
+                "createdAt": "2025-07-30T08:06:21.660Z",
+                "updatedAt": "2025-07-30T08:06:21.660Z"
+            },
+            "status": "In Preparation",
+            "transitStatus": "Awaiting Loading",
+            "payableStatus": "Awaiting Clearance",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-07-30T08:06:21.650Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d27dc959cd299cefcd53",
+                    "createdAt": "2025-07-30T08:06:21.660Z",
+                    "updatedAt": "2025-07-30T08:06:21.660Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-07-30T08:06:21.650Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d27dc959cd299cefcd54",
+                    "createdAt": "2025-07-30T08:06:21.660Z",
+                    "updatedAt": "2025-07-30T08:06:21.660Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-30T08:06:21.650Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d27dc959cd299cefcd55",
+                    "createdAt": "2025-07-30T08:06:21.660Z",
+                    "updatedAt": "2025-07-30T08:06:21.660Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [],
+            "salesAttachmentUpdates": [],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-30T08:06:21.660Z",
+            "updatedAt": "2025-07-30T08:10:09.473Z",
+            "dispatchRefNo": 4681,
+            "dispatchTrackingNo": "4681CD4F",
+            "__v": 0,
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "productVariantSell": "6841403e2d90cd240d07e8e2",
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "6889d361c959cd299cefd32d",
+                "createdAt": "2025-07-30T08:10:09.453Z",
+                "updatedAt": "2025-07-30T08:10:09.453Z"
+            },
+            "payments": [],
+            "purchasingPriceValue": 380769,
+            "tradingPriceValue": 450000,
+            "totalPayable": 571153.5,
+            "pendingPayable": 571153.5,
+            "pendingReceivable": 0,
+            "tpPayable": 571153.5,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 1.5,
+            "priceForTpCalculation": 380769,
+            "tpGst": 0,
+            "tpGstPercentage": 0,
+            "purchasePrice": 380769,
+            "purchasePriceBeforeGst": 571153.5,
+            "purchaseGstAmt": 0,
+            "purchasePriceAfterGst": 571153.5,
+            "afterMarginPrice": 418845.9,
+            "invoiceTotalPrice": 418845.9,
+            "afterMarginPriceBeforeGst": 628268.8500000001,
+            "afterMarginGstAmt": 0,
+            "afterMarginPriceAfterGst": 628268.8500000001,
+            "invoiceStatus": "Pending Invoice",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 571153.5
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 571153.5
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 675000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST",
+                    "value": 0
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 675000
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 571153.5
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 0
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 571153.5
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 0
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 571153.5
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 628268.8500000001
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 571153.5
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 628268.8500000001
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 380769,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 418845.9
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 380769,
+                    "qty": 1.5,
+                    "priceBeforeGst": 571153.5,
+                    "gstPercentage": 0,
+                    "gst": 0,
+                    "total": 571153.5
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 418845.9,
+                    "qty": 1.5,
+                    "priceBeforeGst": 628268.8500000001,
+                    "gstPercentage": 0,
+                    "gst": 0,
+                    "total": 628268.8500000001
+                },
+                "totalInterest": 57115.35000000009,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3540,
+            "receivable": 628268.8500000001,
+            "payable": 571153.5,
+            "summaryValue": 628268.8500000001
+        },
+        {
+            "_id": "6889d221c959cd299cefc831",
+            "order": {
+                "_id": "688099031c60487c5e6e33e0",
+                "enquiry": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5,
+                "transportCharges": 0,
+                "orderRefNo": 3484
+            },
+            "product": {
+                "_id": "643cfe7c766783c1d5b113f4",
+                "name": "Acid Oils"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f7c8e6e9664249b02235",
+            "subUnit": "KL",
+            "currency": "INR",
+            "purchasingPrice": 800000,
+            "tradingPrice": 990000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "68837461855996311e732301",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-30T08:04:49.217Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "68837461855996311e732300",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-30T08:04:49.218Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "PBILL/NO/DWU909390",
+            "purchaseCreditTerm": 2,
+            "salesCreditTerm": 2,
+            "dispatchedQty": 12,
+            "receivedQty": 0,
+            "dispatchedOn": "2025-07-30T08:04:25.832Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "aDDED FOR TESTING",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "6889d221c959cd299cefc830",
+                "updatedAt": "2025-07-30T08:04:49.218Z",
+                "createdAt": "2025-07-30T08:04:49.218Z"
+            },
+            "metadata": {
+                "purchaseOrderNo": "DEV-VGML/TEST-04/383",
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "6889d221c959cd299cefc835",
+                "createdAt": "2025-07-30T08:04:49.218Z",
+                "updatedAt": "2025-07-30T08:04:49.218Z"
+            },
+            "status": "Dispatched",
+            "transitStatus": "In Transit",
+            "payableStatus": "Awaiting Clearance",
+            "statusUpdates": [
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-30T08:04:49.204Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d221c959cd299cefc836",
+                    "createdAt": "2025-07-30T08:04:49.218Z",
+                    "updatedAt": "2025-07-30T08:04:49.218Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-30T08:04:49.204Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d221c959cd299cefc837",
+                    "createdAt": "2025-07-30T08:04:49.218Z",
+                    "updatedAt": "2025-07-30T08:04:49.218Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-30T08:04:49.204Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d221c959cd299cefc838",
+                    "createdAt": "2025-07-30T08:04:49.219Z",
+                    "updatedAt": "2025-07-30T08:04:49.219Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-30T08:04:50.679Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889d222c959cd299cefc845",
+                    "createdAt": "2025-07-30T08:04:50.680Z",
+                    "updatedAt": "2025-07-30T08:04:50.680Z"
+                }
+            ],
+            "salesAttachmentUpdates": [],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-30T08:04:49.219Z",
+            "updatedAt": "2025-07-30T08:04:50.680Z",
+            "dispatchRefNo": 4680,
+            "dispatchTrackingNo": "4680C831",
+            "__v": 0,
+            "purchase": {
+                "invoice": "dispatches/b7b6f74f75134cf9148b14a12e439d031753862690669.pdf",
+                "updatedAt": "2025-07-30T08:04:50.680Z"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "purchaseOrder": {
+                "_id": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5
+            },
+            "payments": [],
+            "purchasingPriceValue": 800000,
+            "tradingPriceValue": 990000,
+            "totalPayable": 10080000,
+            "pendingPayable": 10080000,
+            "pendingReceivable": 0,
+            "tpPayable": 10080000,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 12,
+            "priceForTpCalculation": 800000,
+            "tpGst": 0.05,
+            "tpGstPercentage": 5,
+            "purchasePrice": 800000,
+            "purchasePriceBeforeGst": 9600000,
+            "purchaseGstAmt": 480000,
+            "purchasePriceAfterGst": 10080000,
+            "afterMarginPrice": 880000,
+            "invoiceTotalPrice": 880000,
+            "afterMarginPriceBeforeGst": 10560000,
+            "afterMarginGstAmt": 528000,
+            "afterMarginPriceAfterGst": 11088000,
+            "invoiceStatus": "Pending Transit",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 9600000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 480000
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 10080000
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 11880000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 594000
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 12474000
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 10080000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 0
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 10080000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 0
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 10080000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 11088000
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 10080000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 11088000
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 800000,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 880000
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 800000,
+                    "qty": 12,
+                    "priceBeforeGst": 9600000,
+                    "gstPercentage": 5,
+                    "gst": 480000,
+                    "total": 10080000
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 880000,
+                    "qty": 12,
+                    "priceBeforeGst": 10560000,
+                    "gstPercentage": 5,
+                    "gst": 528000,
+                    "total": 11088000
+                },
+                "totalInterest": 1008000,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3484,
+            "receivable": 11088000,
+            "payable": 10080000,
+            "summaryValue": 11088000
+        },
+        {
+            "_id": "6889cbcbc959cd299cefb232",
+            "order": {
+                "_id": "688099031c60487c5e6e33e0",
+                "enquiry": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5,
+                "transportCharges": 0,
+                "orderRefNo": 3484
+            },
+            "product": {
+                "_id": "643cfe7c766783c1d5b113f4",
+                "name": "Acid Oils"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f7c8e6e9664249b02235",
+            "subUnit": "KL",
+            "currency": "INR",
+            "purchasingPrice": 800000,
+            "tradingPrice": 990000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "68837461855996311e732301",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-30T07:37:47.263Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "68837461855996311e732300",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-30T07:37:47.264Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "1",
+            "purchaseCreditTerm": 2,
+            "salesCreditTerm": 2,
+            "dispatchedQty": 10,
+            "receivedQty": 9,
+            "dispatchedOn": "2025-07-30T07:37:33.157Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "6889cbcbc959cd299cefb231",
+                "updatedAt": "2025-07-30T07:37:47.264Z",
+                "createdAt": "2025-07-30T07:37:47.264Z"
+            },
+            "metadata": {
+                "purchaseOrderNo": "DEV-VGML/TEST-04/383",
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "6889cbcbc959cd299cefb236",
+                "createdAt": "2025-07-30T07:37:47.264Z",
+                "updatedAt": "2025-07-30T07:37:47.264Z"
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-30T07:37:47.255Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbcbc959cd299cefb237",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-07-30T07:38:16.884Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbe8c959cd299cefb3d1",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-30T07:37:47.255Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbcbc959cd299cefb238",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-07-30T07:37:47.255Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbe8c959cd299cefb39a",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-07-30T07:37:47.255Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbe8c959cd299cefb3d6",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-30T07:37:47.255Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbcbc959cd299cefb239",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-07-30T07:38:16.884Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbe8c959cd299cefb3d3",
+                    "createdAt": "2025-07-30T07:38:16.886Z",
+                    "updatedAt": "2025-07-30T07:38:16.886Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-30T07:37:48.640Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbccc959cd299cefb246",
+                    "createdAt": "2025-07-30T07:37:48.641Z",
+                    "updatedAt": "2025-07-30T07:37:48.641Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-07-30T07:38:19.712Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cbebc959cd299cefba3f",
+                    "createdAt": "2025-07-30T07:38:19.713Z",
+                    "updatedAt": "2025-07-30T07:38:19.713Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-30T07:37:47.264Z",
+            "updatedAt": "2025-07-30T07:38:19.713Z",
+            "dispatchRefNo": 4679,
+            "dispatchTrackingNo": "4679B232",
+            "__v": 0,
+            "purchase": {
+                "invoice": "dispatches/63c74dba32468988ec6aad7215ef45651753861068632.pdf",
+                "updatedAt": "2025-07-30T07:37:48.641Z"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "6889cbcbc959cd299cefb232",
+                    "dispatchRefNo": 4679,
+                    "dispatchedOn": "2025-07-30T07:37:33.157Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-07-30T07:37:47.255Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cbcbc959cd299cefb238",
+                            "createdAt": "2025-07-30T07:38:18.404Z",
+                            "updatedAt": "2025-07-30T07:38:18.404Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-07-30T07:37:47.255Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cbe8c959cd299cefb39a",
+                            "createdAt": "2025-07-30T07:38:18.404Z",
+                            "updatedAt": "2025-07-30T07:38:18.404Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-07-30T07:37:47.255Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cbe8c959cd299cefb3d6",
+                            "createdAt": "2025-07-30T07:38:18.404Z",
+                            "updatedAt": "2025-07-30T07:38:18.404Z"
+                        }
+                    ],
+                    "productId": "643cfe7c766783c1d5b113f4",
+                    "productName": "Acid Oils",
+                    "productImage": "products/f7733d2a3bab7c7af0731a098536144f1681718909016.jpg",
+                    "quantity": 10,
+                    "deliveryAddress": {
+                        "city": "Chennai",
+                        "state": "Tamil Nadu",
+                        "country": "India",
+                        "pincode": "600002",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                80.27847,
+                                13.08784
+                            ]
+                        },
+                        "_id": "6889cbeac959cd299cefba2c"
+                    },
+                    "pickupAddress": {
+                        "city": "Ernakulam",
+                        "state": "Kerala",
+                        "country": "India",
+                        "pincode": "682016",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                76.5,
+                                10
+                            ]
+                        },
+                        "_id": "6889cbeac959cd299cefba2d"
+                    },
+                    "_id": "6889cbeac959cd299cefba28"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/652582dcf82241c5f243e87554d20dcf1753861099701.pdf",
+                "updatedAt": "2025-07-30T07:38:19.713Z"
+            },
+            "purchaseOrder": {
+                "_id": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5
+            },
+            "payments": [],
+            "purchasingPriceValue": 800000,
+            "tradingPriceValue": 990000,
+            "totalPayable": 7560000,
+            "pendingPayable": 7560000,
+            "pendingReceivable": 9355500,
+            "tpPayable": 7560000,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 9,
+            "priceForTpCalculation": 800000,
+            "tpGst": 0.05,
+            "tpGstPercentage": 5,
+            "purchasePrice": 800000,
+            "purchasePriceBeforeGst": 7200000,
+            "purchaseGstAmt": 360000,
+            "purchasePriceAfterGst": 7560000,
+            "afterMarginPrice": 880000,
+            "invoiceTotalPrice": 880000,
+            "afterMarginPriceBeforeGst": 7920000,
+            "afterMarginGstAmt": 396000,
+            "afterMarginPriceAfterGst": 8316000,
+            "invoiceStatus": "Pending Payment",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 7200000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 360000
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 7560000
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 8910000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 445500
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 9355500
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 7560000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 9355500
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 7560000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 9355500
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 7560000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 8316000
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 7560000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 8316000
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 800000,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 880000
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 800000,
+                    "qty": 9,
+                    "priceBeforeGst": 7200000,
+                    "gstPercentage": 5,
+                    "gst": 360000,
+                    "total": 7560000
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 880000,
+                    "qty": 9,
+                    "priceBeforeGst": 7920000,
+                    "gstPercentage": 5,
+                    "gst": 396000,
+                    "total": 8316000
+                },
+                "totalInterest": 756000,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3484,
+            "receivable": 8316000,
+            "payable": 7560000,
+            "summaryValue": 7560000
+        },
+        {
+            "_id": "6889cb06c959cd299cefa87b",
+            "order": {
+                "_id": "688099031c60487c5e6e33e0",
+                "enquiry": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5,
+                "transportCharges": 0,
+                "orderRefNo": 3484
+            },
+            "product": {
+                "_id": "643cfe7c766783c1d5b113f4",
+                "name": "Acid Oils"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f7c8e6e9664249b02235",
+            "subUnit": "KL",
+            "currency": "INR",
+            "purchasingPrice": 800000,
+            "tradingPrice": 990000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "68837461855996311e732301",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-30T07:34:30.588Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "68837461855996311e732300",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-30T07:34:30.588Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "1",
+            "purchaseCreditTerm": 2,
+            "salesCreditTerm": 2,
+            "dispatchedQty": 1,
+            "receivedQty": 1,
+            "dispatchedOn": "2025-07-30T07:34:13.705Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "6889cb06c959cd299cefa87a",
+                "updatedAt": "2025-07-30T07:34:30.588Z",
+                "createdAt": "2025-07-30T07:34:30.588Z"
+            },
+            "metadata": {
+                "purchaseOrderNo": "DEV-VGML/TEST-04/383",
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "6889cb06c959cd299cefa87f",
+                "createdAt": "2025-07-30T07:34:30.589Z",
+                "updatedAt": "2025-07-30T07:34:30.589Z"
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-07-30T07:34:30.578Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb06c959cd299cefa880",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                },
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-30T07:36:09.514Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb69c959cd299cefa9d0",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-07-30T07:36:10.340Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb6ac959cd299cefaa4b",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-07-30T07:34:30.578Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb06c959cd299cefa881",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                },
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-30T07:34:30.578Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb69c959cd299cefa9d2",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-07-30T07:34:30.578Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb69c959cd299cefaa0f",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-07-30T07:34:30.578Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb6ac959cd299cefaa51",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-30T07:34:30.578Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb06c959cd299cefa882",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-07-30T07:36:10.340Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb6ac959cd299cefaa4d",
+                    "createdAt": "2025-07-30T07:36:10.340Z",
+                    "updatedAt": "2025-07-30T07:36:10.340Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-30T07:34:32.006Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb08c959cd299cefa88f",
+                    "createdAt": "2025-07-30T07:34:32.008Z",
+                    "updatedAt": "2025-07-30T07:34:32.008Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-07-30T07:36:12.920Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "6889cb6cc959cd299cefb0cc",
+                    "createdAt": "2025-07-30T07:36:12.921Z",
+                    "updatedAt": "2025-07-30T07:36:12.921Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-30T07:34:30.589Z",
+            "updatedAt": "2025-07-30T07:36:12.921Z",
+            "dispatchRefNo": 4678,
+            "dispatchTrackingNo": "4678A87B",
+            "__v": 0,
+            "purchase": {
+                "invoice": "dispatches/a84d6a7183ee36309414deed4c8ef9f81753860871992.pdf",
+                "updatedAt": "2025-07-30T07:34:32.008Z"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "6889cb06c959cd299cefa87b",
+                    "dispatchRefNo": 4678,
+                    "dispatchedOn": "2025-07-30T07:34:13.705Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "Awaiting Loading",
+                            "updatedOn": "2025-07-30T07:34:30.578Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cb06c959cd299cefa881",
+                            "createdAt": "2025-07-30T07:36:12.124Z",
+                            "updatedAt": "2025-07-30T07:36:12.124Z"
+                        },
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-07-30T07:34:30.578Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cb69c959cd299cefa9d2",
+                            "createdAt": "2025-07-30T07:36:12.124Z",
+                            "updatedAt": "2025-07-30T07:36:12.124Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-07-30T07:34:30.578Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cb69c959cd299cefaa0f",
+                            "createdAt": "2025-07-30T07:36:12.124Z",
+                            "updatedAt": "2025-07-30T07:36:12.124Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-07-30T07:34:30.578Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "6889cb6ac959cd299cefaa51",
+                            "createdAt": "2025-07-30T07:36:12.124Z",
+                            "updatedAt": "2025-07-30T07:36:12.124Z"
+                        }
+                    ],
+                    "productId": "643cfe7c766783c1d5b113f4",
+                    "productName": "Acid Oils",
+                    "productImage": "products/f7733d2a3bab7c7af0731a098536144f1681718909016.jpg",
+                    "quantity": 1,
+                    "deliveryAddress": {
+                        "city": "Chennai",
+                        "state": "Tamil Nadu",
+                        "country": "India",
+                        "pincode": "600002",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                80.27847,
+                                13.08784
+                            ]
+                        },
+                        "_id": "6889cb6cc959cd299cefb0b6"
+                    },
+                    "pickupAddress": {
+                        "city": "Ernakulam",
+                        "state": "Kerala",
+                        "country": "India",
+                        "pincode": "682016",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                76.5,
+                                10
+                            ]
+                        },
+                        "_id": "6889cb6cc959cd299cefb0b7"
+                    },
+                    "_id": "6889cb6cc959cd299cefb0b1"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/d507feb5e2d4d674b7119b24ecc75a721753860972900.pdf",
+                "updatedAt": "2025-07-30T07:36:12.921Z"
+            },
+            "purchaseOrder": {
+                "_id": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5
+            },
+            "payments": [],
+            "purchasingPriceValue": 800000,
+            "tradingPriceValue": 990000,
+            "totalPayable": 840000,
+            "pendingPayable": 840000,
+            "pendingReceivable": 1039500,
+            "tpPayable": 840000,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 1,
+            "priceForTpCalculation": 800000,
+            "tpGst": 0.05,
+            "tpGstPercentage": 5,
+            "purchasePrice": 800000,
+            "purchasePriceBeforeGst": 800000,
+            "purchaseGstAmt": 40000,
+            "purchasePriceAfterGst": 840000,
+            "afterMarginPrice": 880000,
+            "invoiceTotalPrice": 880000,
+            "afterMarginPriceBeforeGst": 880000,
+            "afterMarginGstAmt": 44000,
+            "afterMarginPriceAfterGst": 924000,
+            "invoiceStatus": "Pending Payment",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 800000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 40000
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 840000
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 990000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 49500
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 1039500
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 840000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 1039500
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 840000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 1039500
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 840000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 924000
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 840000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 924000
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 800000,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 880000
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 800000,
+                    "qty": 1,
+                    "priceBeforeGst": 800000,
+                    "gstPercentage": 5,
+                    "gst": 40000,
+                    "total": 840000
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 880000,
+                    "qty": 1,
+                    "priceBeforeGst": 880000,
+                    "gstPercentage": 5,
+                    "gst": 44000,
+                    "total": 924000
+                },
+                "totalInterest": 84000,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3484,
+            "receivable": 924000,
+            "payable": 840000,
+            "summaryValue": 840000
+        },
+        {
+            "_id": "688375a4855996311e7330de",
+            "order": {
+                "_id": "688099031c60487c5e6e33e0",
+                "enquiry": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5,
+                "transportCharges": 0,
+                "orderRefNo": 3484
+            },
+            "product": {
+                "_id": "643cfe7c766783c1d5b113f4",
+                "name": "Acid Oils"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f7c8e6e9664249b02235",
+            "subUnit": "KL",
+            "currency": "INR",
+            "purchasingPrice": 800000,
+            "tradingPrice": 990000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "68837461855996311e732301",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-25T12:16:36.947Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "68837461855996311e732300",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-25T12:16:36.947Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "12",
+            "purchaseCreditTerm": 2,
+            "salesCreditTerm": 2,
+            "dispatchedQty": 11,
+            "receivedQty": 11,
+            "dispatchedOn": "2025-07-25T12:16:24.624Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "688375a4855996311e7330dd",
+                "updatedAt": "2025-07-25T12:16:36.947Z",
+                "createdAt": "2025-07-25T12:16:36.947Z"
+            },
+            "metadata": {
+                "purchaseOrderNo": "DEV-VGML/TEST-04/383",
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "688375a4855996311e7330e2",
+                "createdAt": "2025-07-25T12:16:36.948Z",
+                "updatedAt": "2025-07-25T12:16:36.948Z"
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-07-25T12:16:36.935Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688375a4855996311e7330e3",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                },
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-25T12:21:25.549Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c5855996311e73387e",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-07-25T12:21:26.366Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c6855996311e733917",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-07-25T12:16:36.935Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688375a4855996311e7330e4",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                },
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-25T12:16:36.935Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c5855996311e733880",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-07-25T12:16:36.935Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c5855996311e7338cc",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-07-25T12:16:36.935Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c6855996311e73391d",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-25T12:16:36.935Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688375a4855996311e7330e5",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-07-25T12:21:26.366Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c6855996311e733919",
+                    "createdAt": "2025-07-25T12:21:26.366Z",
+                    "updatedAt": "2025-07-25T12:21:26.366Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-25T12:16:57.807Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688375b9855996311e7332cb",
+                    "createdAt": "2025-07-25T12:16:57.808Z",
+                    "updatedAt": "2025-07-25T12:16:57.808Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-07-25T12:21:28.065Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688376c8855996311e733f8c",
+                    "createdAt": "2025-07-25T12:21:28.066Z",
+                    "updatedAt": "2025-07-25T12:21:28.066Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-25T12:16:36.948Z",
+            "updatedAt": "2025-07-25T12:21:28.066Z",
+            "dispatchRefNo": 4661,
+            "dispatchTrackingNo": "466130DE",
+            "__v": 0,
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "purchase": {
+                "invoice": "dispatches/ad9f5f49eab29d7ff20149e57d022d321753445817798.png",
+                "updatedAt": "2025-07-25T12:16:57.808Z"
+            },
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "688375a4855996311e7330de",
+                    "dispatchRefNo": 4661,
+                    "dispatchedOn": "2025-07-25T12:16:24.624Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "Awaiting Loading",
+                            "updatedOn": "2025-07-25T12:16:36.935Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688375a4855996311e7330e4",
+                            "createdAt": "2025-07-25T12:21:27.923Z",
+                            "updatedAt": "2025-07-25T12:21:27.923Z"
+                        },
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-07-25T12:16:36.935Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688376c5855996311e733880",
+                            "createdAt": "2025-07-25T12:21:27.923Z",
+                            "updatedAt": "2025-07-25T12:21:27.923Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-07-25T12:16:36.935Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688376c5855996311e7338cc",
+                            "createdAt": "2025-07-25T12:21:27.923Z",
+                            "updatedAt": "2025-07-25T12:21:27.923Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-07-25T12:16:36.935Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688376c6855996311e73391d",
+                            "createdAt": "2025-07-25T12:21:27.923Z",
+                            "updatedAt": "2025-07-25T12:21:27.923Z"
+                        }
+                    ],
+                    "productId": "643cfe7c766783c1d5b113f4",
+                    "productName": "Acid Oils",
+                    "productImage": "products/f7733d2a3bab7c7af0731a098536144f1681718909016.jpg",
+                    "quantity": 11,
+                    "deliveryAddress": {
+                        "city": "Chennai",
+                        "state": "Tamil Nadu",
+                        "country": "India",
+                        "pincode": "600002",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                80.27847,
+                                13.08784
+                            ]
+                        },
+                        "_id": "688376c7855996311e733f76"
+                    },
+                    "pickupAddress": {
+                        "city": "Ernakulam",
+                        "state": "Kerala",
+                        "country": "India",
+                        "pincode": "682016",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                76.5,
+                                10
+                            ]
+                        },
+                        "_id": "688376c7855996311e733f77"
+                    },
+                    "_id": "688376c7855996311e733f71"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/a931ef6415916b55899e1ed4ff3734911753446088056.png",
+                "updatedAt": "2025-07-25T12:21:28.066Z"
+            },
+            "purchaseOrder": {
+                "_id": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5
+            },
+            "payments": [],
+            "purchasingPriceValue": 800000,
+            "tradingPriceValue": 990000,
+            "totalPayable": 9240000,
+            "pendingPayable": 9240000,
+            "pendingReceivable": 11434500,
+            "tpPayable": 9240000,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 11,
+            "priceForTpCalculation": 800000,
+            "tpGst": 0.05,
+            "tpGstPercentage": 5,
+            "purchasePrice": 800000,
+            "purchasePriceBeforeGst": 8800000,
+            "purchaseGstAmt": 440000,
+            "purchasePriceAfterGst": 9240000,
+            "afterMarginPrice": 880000,
+            "invoiceTotalPrice": 880000,
+            "afterMarginPriceBeforeGst": 9680000,
+            "afterMarginGstAmt": 484000,
+            "afterMarginPriceAfterGst": 10164000,
+            "invoiceStatus": "Pending Payment",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 8800000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 440000
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 9240000
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 10890000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 544500
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 11434500
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 9240000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 11434500
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 9240000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 11434500
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 9240000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 10164000
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 9240000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 10164000
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 800000,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 880000
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 800000,
+                    "qty": 11,
+                    "priceBeforeGst": 8800000,
+                    "gstPercentage": 5,
+                    "gst": 440000,
+                    "total": 9240000
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 880000,
+                    "qty": 11,
+                    "priceBeforeGst": 9680000,
+                    "gstPercentage": 5,
+                    "gst": 484000,
+                    "total": 10164000
+                },
+                "totalInterest": 924000,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3484,
+            "receivable": 10164000,
+            "payable": 9240000,
+            "summaryValue": 9240000
+        },
+        {
+            "_id": "688374a1855996311e732488",
+            "order": {
+                "_id": "688099031c60487c5e6e33e0",
+                "enquiry": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5,
+                "transportCharges": 0,
+                "orderRefNo": 3484
+            },
+            "product": {
+                "_id": "643cfe7c766783c1d5b113f4",
+                "name": "Acid Oils"
+            },
+            "buyer": {
+                "_id": "676a5b68958d84b2bea040d2",
+                "name": "BuyoBuyerAutomation",
+                "gstNumber": "33AACPR0817J1ZV"
+            },
+            "seller": {
+                "_id": "676a5cfc958d84b2bea041ad",
+                "name": "BuyoSellerAutomation",
+                "gstNumber": "32AAACZ5886G2Z1",
+                "kycDocument": {
+                    "panName": "PRAKASHKUMAR MURUGAN",
+                    "updatedAt": "2025-06-28T11:27:57.338Z",
+                    "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                    "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                    "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                    "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+                },
+                "beneficiaryAccount": {
+                    "accountName": "pk",
+                    "accountNo": "3437108002246",
+                    "ifscCode": "CNRB0003437",
+                    "updatedAt": "2025-07-25T12:15:35.126Z"
+                }
+            },
+            "unit": "64b7f7c8e6e9664249b02235",
+            "subUnit": "KL",
+            "currency": "INR",
+            "purchasingPrice": 800000,
+            "tradingPrice": 990000,
+            "deliveryAddress": {
+                "line1": "29/14",
+                "line2": "LGN ROAD",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "pincode": "600002",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.27847,
+                        13.08784
+                    ]
+                },
+                "_id": "68837461855996311e732301",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-25T12:12:17.057Z"
+            },
+            "deliveryAddressId": "676a5b65958d84b2bea040c5",
+            "pickupAddress": {
+                "line1": "2ND FLOOR ALARD TOWERS",
+                "line2": "WARRIAM ROAD",
+                "city": "Ernakulam",
+                "state": "Kerala",
+                "country": "India",
+                "pincode": "682016",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        76.5,
+                        10
+                    ]
+                },
+                "_id": "68837461855996311e732300",
+                "createdAt": "2025-07-25T12:11:13.500Z",
+                "updatedAt": "2025-07-25T12:12:17.057Z"
+            },
+            "pickupAddressId": "676a5cf9958d84b2bea0419a",
+            "purchaseBillNo": "1",
+            "purchaseCreditTerm": 2,
+            "salesCreditTerm": 2,
+            "dispatchedQty": 10,
+            "receivedQty": 9.6,
+            "dispatchedOn": "2025-07-25T12:11:54.353Z",
+            "dispatchFrom": 641668,
+            "vehicleNo": "",
+            "notes": "",
+            "transportCharges": 0,
+            "unloadingCharges": 0,
+            "haltingCharges": 0,
+            "miscCharges": 0,
+            "salesTradePartner": {
+                "tradePartner": "681203a873008a08f2045da0",
+                "type": "margin",
+                "tradeType": "purchase",
+                "margin": 10,
+                "creditTerm": 15,
+                "_id": "688374a1855996311e732487",
+                "updatedAt": "2025-07-25T12:12:17.058Z",
+                "createdAt": "2025-07-25T12:12:17.058Z"
+            },
+            "metadata": {
+                "purchaseOrderNo": "DEV-VGML/TEST-04/383",
+                "purchasePayment": 0,
+                "salesPayment": 0,
+                "transportPayment": 0,
+                "_id": "688374a1855996311e73248c",
+                "createdAt": "2025-07-25T12:12:17.058Z",
+                "updatedAt": "2025-07-25T12:12:17.058Z"
+            },
+            "status": "Completed",
+            "transitStatus": "Goods Delivered",
+            "payableStatus": "Cleared for Payment",
+            "statusUpdates": [
+                {
+                    "status": "In Preparation",
+                    "updatedOn": "2025-07-25T12:12:17.047Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374a1855996311e73248d",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                },
+                {
+                    "status": "Dispatched",
+                    "updatedOn": "2025-07-25T12:12:51.716Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c3855996311e732686",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                },
+                {
+                    "status": "Completed",
+                    "updatedOn": "2025-07-25T12:12:52.597Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c4855996311e73271b",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                }
+            ],
+            "transitUpdates": [
+                {
+                    "status": "Awaiting Loading",
+                    "updatedOn": "2025-07-25T12:12:17.047Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374a1855996311e73248e",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                },
+                {
+                    "status": "In Transit",
+                    "updatedOn": "2025-07-25T12:12:17.047Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c3855996311e732688",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                },
+                {
+                    "status": "Awaiting Unloading",
+                    "updatedOn": "2025-07-25T12:12:17.047Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c4855996311e7326d1",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                },
+                {
+                    "status": "Goods Delivered",
+                    "updatedOn": "2025-07-25T12:12:17.047Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c4855996311e732721",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                }
+            ],
+            "payableUpdates": [
+                {
+                    "status": "Awaiting Clearance",
+                    "updatedOn": "2025-07-25T12:12:17.047Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374a1855996311e73248f",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                },
+                {
+                    "status": "Cleared for Payment",
+                    "updatedOn": "2025-07-25T12:12:52.597Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c4855996311e73271d",
+                    "createdAt": "2025-07-25T12:12:52.598Z",
+                    "updatedAt": "2025-07-25T12:12:52.598Z"
+                }
+            ],
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "updates": [],
+            "purchaseAttachmentUpdates": [
+                {
+                    "attachment": "invoice",
+                    "updatedOn": "2025-07-25T12:12:18.173Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374a2855996311e73249c",
+                    "createdAt": "2025-07-25T12:12:18.175Z",
+                    "updatedAt": "2025-07-25T12:12:18.175Z"
+                }
+            ],
+            "salesAttachmentUpdates": [
+                {
+                    "attachment": "grnReceipt",
+                    "updatedOn": "2025-07-25T12:12:54.689Z",
+                    "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                    "_id": "688374c6855996311e732d8c",
+                    "createdAt": "2025-07-25T12:12:54.690Z",
+                    "updatedAt": "2025-07-25T12:12:54.690Z"
+                }
+            ],
+            "salesTpAttachmentUpdates": [],
+            "createdAt": "2025-07-25T12:12:17.059Z",
+            "updatedAt": "2025-07-25T12:12:54.690Z",
+            "dispatchRefNo": 4660,
+            "dispatchTrackingNo": "46602488",
+            "__v": 0,
+            "purchase": {
+                "invoice": "dispatches/efb9185a9e837b5125c8dbfc7a004a4d1753445538161.png",
+                "updatedAt": "2025-07-25T12:12:18.175Z"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "hederaMetadata": {
+                "debug": "Could not create new private topic in hedera",
+                "sourceChain": {
+                    "dispatchId": "688374a1855996311e732488",
+                    "dispatchRefNo": 4660,
+                    "dispatchedOn": "2025-07-25T12:11:54.353Z",
+                    "sourceChain": [],
+                    "transitUpdates": [
+                        {
+                            "status": "Awaiting Loading",
+                            "updatedOn": "2025-07-25T12:12:17.047Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688374a1855996311e73248e",
+                            "createdAt": "2025-07-25T12:12:54.056Z",
+                            "updatedAt": "2025-07-25T12:12:54.056Z"
+                        },
+                        {
+                            "status": "In Transit",
+                            "updatedOn": "2025-07-25T12:12:17.047Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688374c3855996311e732688",
+                            "createdAt": "2025-07-25T12:12:54.056Z",
+                            "updatedAt": "2025-07-25T12:12:54.056Z"
+                        },
+                        {
+                            "status": "Awaiting Unloading",
+                            "updatedOn": "2025-07-25T12:12:17.047Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688374c4855996311e7326d1",
+                            "createdAt": "2025-07-25T12:12:54.056Z",
+                            "updatedAt": "2025-07-25T12:12:54.056Z"
+                        },
+                        {
+                            "status": "Goods Delivered",
+                            "updatedOn": "2025-07-25T12:12:17.047Z",
+                            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+                            "_id": "688374c4855996311e732721",
+                            "createdAt": "2025-07-25T12:12:54.056Z",
+                            "updatedAt": "2025-07-25T12:12:54.056Z"
+                        }
+                    ],
+                    "productId": "643cfe7c766783c1d5b113f4",
+                    "productName": "Acid Oils",
+                    "productImage": "products/f7733d2a3bab7c7af0731a098536144f1681718909016.jpg",
+                    "quantity": 10,
+                    "deliveryAddress": {
+                        "city": "Chennai",
+                        "state": "Tamil Nadu",
+                        "country": "India",
+                        "pincode": "600002",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                80.27847,
+                                13.08784
+                            ]
+                        },
+                        "_id": "688374c6855996311e732d76"
+                    },
+                    "pickupAddress": {
+                        "city": "Ernakulam",
+                        "state": "Kerala",
+                        "country": "India",
+                        "pincode": "682016",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                76.5,
+                                10
+                            ]
+                        },
+                        "_id": "688374c6855996311e732d77"
+                    },
+                    "_id": "688374c6855996311e732d71"
+                },
+                "status": "error",
+                "topicId": null
+            },
+            "sales": {
+                "grnReceipt": "dispatches/cd467243be001e1621a7a2c92f2f288a1753445574671.png",
+                "updatedAt": "2025-07-25T12:12:54.690Z"
+            },
+            "purchaseOrder": {
+                "_id": "6880987a1c60487c5e6e2d5c",
+                "gstPercentage": 5
+            },
+            "payments": [],
+            "purchasingPriceValue": 800000,
+            "tradingPriceValue": 990000,
+            "totalPayable": 8064000,
+            "pendingPayable": 8064000,
+            "pendingReceivable": 9979200,
+            "tpPayable": 8064000,
+            "howMuchPercentPaid": 100,
+            "qtyForTpCalculation": 9.6,
+            "priceForTpCalculation": 800000,
+            "tpGst": 0.05,
+            "tpGstPercentage": 5,
+            "purchasePrice": 800000,
+            "purchasePriceBeforeGst": 7680000,
+            "purchaseGstAmt": 384000,
+            "purchasePriceAfterGst": 8064000,
+            "afterMarginPrice": 880000,
+            "invoiceTotalPrice": 880000,
+            "afterMarginPriceBeforeGst": 8448000,
+            "afterMarginGstAmt": 422400,
+            "afterMarginPriceAfterGst": 8870400,
+            "invoiceStatus": "Pending Payment",
+            "purchasingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 7680000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 384000
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 8064000
+                }
+            },
+            "tradingPriceBasis": {
+                "price": {
+                    "label": "Price x Quantity",
+                    "value": 9504000
+                },
+                "deliveryCharges": {
+                    "label": "Delivery Charges",
+                    "value": 0
+                },
+                "gst": {
+                    "label": "GST (5%)",
+                    "value": 475200
+                },
+                "total": {
+                    "label": "Total",
+                    "value": 9979200
+                }
+            },
+            "paymentPriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 8064000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 9979200
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 8064000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 9979200
+                }
+            },
+            "salesTradeFinancePriceBasis": {
+                "payable": {
+                    "label": "Total Payable",
+                    "value": 8064000
+                },
+                "receivable": {
+                    "label": "Total Receivable",
+                    "value": 8870400
+                },
+                "paid": {
+                    "label": "Paid",
+                    "value": 0
+                },
+                "pendingTransaction": {
+                    "label": "Pending Transaction",
+                    "value": 0
+                },
+                "received": {
+                    "label": "Received",
+                    "value": 0
+                },
+                "pendingPayable": {
+                    "label": "Pending Payable",
+                    "value": 8064000
+                },
+                "pendingReceivable": {
+                    "label": "Pending Receivable",
+                    "value": 8870400
+                },
+                "activeInvestment": {
+                    "label": "Active Investment",
+                    "value": 0
+                },
+                "invoicePriceBasis": {
+                    "unitPrice": 800000,
+                    "margin": 10,
+                    "type": "margin",
+                    "creditTerm": 15,
+                    "total": 880000
+                },
+                "purchasePriceBasis": {
+                    "unitPrice": 800000,
+                    "qty": 9.6,
+                    "priceBeforeGst": 7680000,
+                    "gstPercentage": 5,
+                    "gst": 384000,
+                    "total": 8064000
+                },
+                "afterMarginPriceBasis": {
+                    "unitPrice": 880000,
+                    "qty": 9.6,
+                    "priceBeforeGst": 8448000,
+                    "gstPercentage": 5,
+                    "gst": 422400,
+                    "total": 8870400
+                },
+                "totalInterest": 806400,
+                "ageDays": 15,
+                "monthlyReturnRate": 21.000000000000018,
+                "dueDate": null
+            },
+            "orderRefNo": 3484,
+            "receivable": 8870400,
+            "payable": 8064000,
+            "summaryValue": 8064000
+        }
+    ],
+    "count": 34,
+    "pages": 1,
+    "statusCounts": {
+        "pendingTransit": 3,
+        "pendingInvoice": 10,
+        "pendingGRN": 2,
+        "pendingPayment": 13,
+        "pendingPayout": 0,
+        "pendingCollection": 6,
+        "completed": 0
+    },
+    "summary": 17138432487.15,
+    "partner": {
+        "_id": "681203a873008a08f2045da0",
+        "name": "SHRIRAM FINANCE LIMITED",
+        "email": "prakash+11@buyofuel.com",
+        "phone": "8838788888",
+        "address": "681203a873008a08f2045d9e",
+        "gstNumber": "37AAACS7018R1ZS",
+        "partnerType": "trade-finance",
+        "buying": [],
+        "selling": [],
+        "users": [
+            {
+                "user": "681203a873008a08f2045d8f",
+                "role": "Owner",
+                "_id": "681203a873008a08f2045da1",
+                "createdAt": "2025-04-30T11:04:08.869Z",
+                "updatedAt": "2025-04-30T11:04:08.869Z"
+            }
+        ],
+        "kycDocument": {
+            "aadhaarNo": "217349842368",
+            "panNo": "GAWPP8991R",
+            "panName": "sHRIRAM",
+            "_id": "681203a873008a08f2045da2",
+            "createdAt": "2025-04-30T11:04:08.869Z",
+            "updatedAt": "2025-04-30T11:04:10.349Z",
+            "panAttachment": "partners/779a009f6c8f0fb423ee68b85a18d1641746011049814.pdf"
+        },
+        "metadata": {
+            "gstVerifiedByApi": true,
+            "_id": "681203a873008a08f2045da3",
+            "createdAt": "2025-04-30T11:04:08.869Z",
+            "updatedAt": "2025-05-09T08:27:29.678Z",
+            "epUserId": "4480",
+            "epTermsId": "1982"
+        },
+        "status": "Verified",
+        "createdBy": "67e3a6ab29e352d9da5dac17",
+        "deleted": false,
+        "products": [
+            {
+                "product": "67d3c581a80b9d4e93a904b3",
+                "type": "margin",
+                "margin": 10,
+                "_id": "68a55e891f566e172f76392a",
+                "createdAt": "2025-08-20T05:35:05.042Z",
+                "updatedAt": "2025-08-20T05:35:05.042Z"
+            },
+            {
+                "product": "643cfe7c766783c1d5b113f4",
+                "type": "margin",
+                "margin": 10,
+                "_id": "68a55e891f566e172f76392b",
+                "createdAt": "2025-08-20T05:35:05.042Z",
+                "updatedAt": "2025-08-20T05:35:05.042Z"
+            },
+            {
+                "product": "643cf4ea766783c1d5b10f2d",
+                "type": "margin",
+                "margin": 10,
+                "_id": "68a55e891f566e172f76392c",
+                "createdAt": "2025-08-20T05:35:05.042Z",
+                "updatedAt": "2025-08-20T05:35:05.042Z"
+            }
+        ],
+        "salesUsers": [],
+        "updates": [],
+        "createdAt": "2025-04-30T11:04:08.869Z",
+        "updatedAt": "2025-08-20T05:35:05.042Z",
+        "partnerRefNo": 22,
+        "__v": 0,
+        "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+        "creditTerm": 15,
+        "exposureLimit": 100000000,
+        "zohometadata": {
+            "customerId": null,
+            "updatedAt": "2025-04-30T11:08:05.633Z",
+            "vendorId": null,
+            "_id": "68fb100180a623af4896849e"
+        },
+        "beneficiaryAccount": {
+            "accountName": "CANARABANK",
+            "accountNo": "350505000865",
+            "ifscCode": "ICIC0003505",
+            "updatedAt": "2025-05-09T10:31:29.826Z",
+            "epBankId": "3071",
+            "_id": "68fb100180a623af4896849f"
+        }
+    }
+}

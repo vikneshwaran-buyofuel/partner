@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 
 class CustomBottomNavBar extends StatelessWidget {
@@ -33,11 +34,11 @@ class CustomBottomNavBar extends StatelessWidget {
       ),
       items: const [
         BottomNavigationBarItem(
-          icon: Icon(Icons.dashboard),
+          icon: Icon(LucideIcons.layoutGrid),
           label: 'Dashboard',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.receipt_long),
+          icon: Icon(Icons.fact_check_rounded),
           label: 'Invoices',
         ),
         BottomNavigationBarItem(

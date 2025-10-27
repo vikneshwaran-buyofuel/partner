@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:partner/app/presentation/dashboard/screens/DashboardScreen.dart';
-import 'package:partner/app/presentation/invoices/screen/invoice_dash_page.dart';
+import 'package:partner/app/presentation/invoices/screen/invoice_dashboard_page.dart';
 import 'package:partner/app/presentation/ledger/screen/ledger_dash_page.dart';
 import 'package:partner/app/presentation/settings/screens/settings_page.dart';
 

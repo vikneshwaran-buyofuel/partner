@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:partner/app/presentation/app_layout/appBar/custom_appBar.dart';
+import 'package:partner/app/common_widgets/app_layout/appBar/custom_appBar.dart';
 import 'package:partner/app/common_widgets/buttons/CustomButton.dart';
 import 'package:partner/app/common_widgets/inputs/custom_InputField.dart';
 import 'package:partner/app/router/route_constants.dart';
@@ -24,7 +24,6 @@ class _LoginPageState extends State<LoginPage> {
     await Future.delayed(const Duration(seconds: 2));
     setState(() => _isLoading = false);
 
-    // TODO: Implement login logic
     ScaffoldMessenger.of(
       context,
     ).showSnackBar(const SnackBar(content: Text('Login clicked')));
@@ -35,17 +34,18 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   void handleOtpPage(BuildContext context, String route) {
-    GoRouter.of(context).push(
-  RouteConstants.otpVerificationRoute,
-  extra: 'user@example.com',
-);
+    GoRouter.of(
+      context,
+    ).push(RouteConstants.otpVerificationRoute, extra: 'user@example.com');
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const CustomAppBar(
-        title: '',
         showBack: true,
+        showLogo: true,
+        
         elevation: 0,
         backgroundColor: Colors.white,
       ),
@@ -55,10 +55,9 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
 
-              // Logo
-              Image.asset('assets/logo.png', height: 40),
+            
               const SizedBox(height: 20),
 
               const Text(
@@ -77,7 +76,6 @@ class _LoginPageState extends State<LoginPage> {
               ),
               const SizedBox(height: 30),
 
-              // Email Field
               CustomInputField(
                 label: 'Email',
                 inputType: InputType.email,
@@ -85,7 +83,6 @@ class _LoginPageState extends State<LoginPage> {
               ),
               const SizedBox(height: 20),
 
-              // Password Field
               CustomInputField(
                 label: 'Password',
                 inputType: InputType.password,
@@ -94,13 +91,10 @@ class _LoginPageState extends State<LoginPage> {
 
               const SizedBox(height: 10),
 
-              // Forgot password
               Align(
                 alignment: Alignment.centerRight,
                 child: TextButton(
-                  onPressed: () {
-                    // TODO: Forgot password logic
-                  },
+                  onPressed: () {},
                   style: TextButton.styleFrom(padding: EdgeInsets.zero),
                   child: InkWell(
                     onTap: () => handleNavigate(
@@ -121,7 +115,6 @@ class _LoginPageState extends State<LoginPage> {
 
               const SizedBox(height: 10),
 
-              // Continue button
               CustomButton(
                 title: 'Continue',
                 onPressed: () =>
@@ -129,15 +122,13 @@ class _LoginPageState extends State<LoginPage> {
                 isLoading: _isLoading,
                 variant: ButtonVariant.primary,
                 size: ButtonSize.large,
-                fullWidth: true,
+               
               ),
 
               const SizedBox(height: 20),
 
               GestureDetector(
-                onTap: () {
-                  // TODO: Navigate to OTP login
-                },
+                onTap: () {},
                 child: InkWell(
                   onTap: () => handleOtpPage(
                     context,

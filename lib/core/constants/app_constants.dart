@@ -34,4 +34,15 @@ class AppConstants {
   static const int minSessionsBeforeReview = 5;
   static const int minDaysBeforeReview = 7;
   static const int minActionsBeforeReview = 10;
+
+  static const List<String> invoiceStatus = [
+    "Action Required",
+    "All",
+    "Avaiting Bill",
+    "To Be Invoiced",
+    "Awaiting GRN",
+    "To Be Paid",
+    "To Be Collected",
+    "Completed"
+  ];
 }

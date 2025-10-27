@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
-import 'package:partner/app/presentation/app_layout/appBar/custom_appBar.dart';
+import 'package:partner/app/common_widgets/app_layout/appBar/custom_appBar.dart';
 
 void main() {
   group('CustomAppBar widget', () {

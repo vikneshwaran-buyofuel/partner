@@ -25,4 +25,6 @@ class RouteConstants {
 
   // Additional settings screens
   static const String appSettingsRoute = '/app-settings';
+
+  static const String getSupportRoute = '/get-support';
 }

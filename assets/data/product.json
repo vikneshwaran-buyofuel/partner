@@ -1,0 +1,140 @@
+{
+    "status": "success",
+    "products": [
+        {
+            "_id": "643cf4ea766783c1d5b10f2d",
+            "name": "UCO",
+            "unit": "64b7f81ee6e9664249b02240",
+            "type": "Solid",
+            "metadata": {
+                "tradingMargin": 5,
+                "fuelEfficiencyRatio": 1,
+                "biofuelCO2Emission": 1.25,
+                "fossilCO2Emission": 2.45,
+                "_id": "643cf4ea766783c1d5b10f2e",
+                "createdAt": "2023-04-17T07:27:38.260Z",
+                "updatedAt": "2025-06-05T06:59:10.744Z",
+                "sustainabilityCategory": "none",
+                "maxPrice": 910000,
+                "minPrice": 110000,
+                "gstPercentage": 0,
+                "maxRadius": 50
+            },
+            "status": "Active",
+            "createdBy": "643ccd64766783c1d5b0fde4",
+            "deleted": false,
+            "createdAt": "2023-04-17T07:27:38.260Z",
+            "updatedAt": "2025-08-25T10:58:12.466Z",
+            "__v": 0,
+            "image": "products/9ef0ecd672ff6e52bac92c3dfe16e6e21681718518671.jpg",
+            "updatedBy": "688073071c60487c5e6d1cfe",
+            "zohometadata": {
+                "itemId": "2534432000000790301",
+                "productType": "goods",
+                "updatedAt": "2023-10-26T06:03:42.073Z",
+                "preferredUnit": "MT"
+            },
+            "qualities": [],
+            "variants": [
+                {
+                    "_id": "6841403e2d90cd240d07e8e2",
+                    "name": "A",
+                    "gstPercentage": 5,
+                    "zbItemId": "2534432000000657068",
+                    "zbPreferredUnit": "MT"
+                }
+            ],
+            "hsnCode": "15180039"
+        },
+        {
+            "_id": "643cfe7c766783c1d5b113f4",
+            "name": "Acid Oils",
+            "unit": "64b7f7c8e6e9664249b02235",
+            "type": "Solid",
+            "metadata": {
+                "tradingMargin": 5,
+                "fuelEfficiencyRatio": 1,
+                "biofuelCO2Emission": 1.25,
+                "fossilCO2Emission": 2.45,
+                "_id": "643cfe7c766783c1d5b113f5",
+                "createdAt": "2023-04-17T08:08:28.244Z",
+                "updatedAt": "2025-04-04T05:09:17.465Z",
+                "maxPrice": 1000000,
+                "minPrice": 800000,
+                "sustainabilityCategory": "plastic-oil",
+                "gstPercentage": 5,
+                "maxRadius": 500
+            },
+            "status": "Active",
+            "createdBy": "643ccd64766783c1d5b0fde4",
+            "deleted": false,
+            "createdAt": "2023-04-17T08:08:28.244Z",
+            "updatedAt": "2025-09-27T11:09:12.758Z",
+            "__v": 0,
+            "image": "products/f7733d2a3bab7c7af0731a098536144f1681718909016.jpg",
+            "updatedBy": "6847065a42eaf814e1089cb0",
+            "zohometadata": {
+                "itemId": "2534432000000657113",
+                "preferredUnit": "KL",
+                "updatedAt": "2023-12-11T06:40:40.957Z"
+            },
+            "qualities": [],
+            "variants": [
+                {
+                    "_id": "68ce9db8583f15311ecad8ff",
+                    "name": "Variant A",
+                    "gstPercentage": 12,
+                    "zbPreferredUnit": "KL"
+                },
+                {
+                    "_id": "68d7c5d8c0dfab98b8d8d9a5",
+                    "name": "VARIANT B",
+                    "gstPercentage": 18
+                }
+            ]
+        },
+        {
+            "_id": "67d3c581a80b9d4e93a904b3",
+            "name": "Bio Briquettes Grade B",
+            "unit": "64b7f81ee6e9664249b02240",
+            "type": "Low Value Waste",
+            "qualities": [],
+            "variants": [],
+            "rawMaterials": [
+                "643cf5f4766783c1d5b10f99",
+                "643cf9ca766783c1d5b10ffc"
+            ],
+            "metadata": {
+                "minPrice": 400000,
+                "maxPrice": 800000,
+                "maxRadius": 50,
+                "tradingMargin": 5,
+                "gstPercentage": 18,
+                "fuelEfficiencyRatio": 0,
+                "biofuelCO2Emission": 3,
+                "fossilCO2Emission": 2,
+                "sustainabilityCategory": "none",
+                "_id": "67d3c581a80b9d4e93a904b4",
+                "createdAt": "2025-03-14T05:58:25.319Z",
+                "updatedAt": "2025-03-14T05:58:25.319Z"
+            },
+            "zohometadata": {
+                "itemId": null,
+                "preferredUnit": null,
+                "_id": "67d3c581a80b9d4e93a904b5",
+                "createdAt": "2025-03-14T05:58:25.319Z",
+                "updatedAt": "2025-03-14T05:58:25.319Z"
+            },
+            "status": "Active",
+            "createdBy": "66275cf13a47c089610a34b1",
+            "deleted": false,
+            "createdAt": "2025-03-14T05:58:25.319Z",
+            "updatedAt": "2025-03-20T04:54:03.151Z",
+            "__v": 0,
+            "image": "products/90e497739a7b421f1d7426b73a742c6b1741931905842.png",
+            "updatedBy": "65cb261276dd766204f80efb"
+        }
+    ],
+    "count": 3,
+    "pages": 1
+}

@@ -1,0 +1,1282 @@
+{
+    "status": "success",
+    "businesses": [
+        {
+            "_id": "6647198bb9ee2b5818d5e5df",
+            "name": "ADANI ENTERPRISES LIMITED",
+            "email": "kalpanarbhandekar@gmail.com",
+            "phone": "7709376843",
+            "address": "66471985b9ee2b5818d5e5d2",
+            "gstNumber": "07AABCA2804L1ZW",
+            "msmeRegistration": {
+                "_id": "6647198bb9ee2b5818d5e5e0",
+                "msmeType": ""
+            },
+            "businessType": "manufacturer",
+            "buying": [
+                "643cfe7c766783c1d5b113f4",
+                "643cff41766783c1d5b1147f"
+            ],
+            "selling": [
+                "643cfe7c766783c1d5b113f4",
+                "643cff41766783c1d5b1147f"
+            ],
+            "users": [
+                {
+                    "user": "6647198bb9ee2b5818d5e5d4",
+                    "role": "Owner",
+                    "_id": "6647198bb9ee2b5818d5e5e1",
+                    "createdAt": "2024-05-17T08:47:07.198Z",
+                    "updatedAt": "2024-05-17T08:47:07.198Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "65cb261276dd766204f80efb",
+                "verifiedOn": "2024-05-17T08:47:07.192Z",
+                "gstVerifiedByApi": true,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 9,
+                "dispatches": 11,
+                "openListings": 0,
+                "openRequirements": 1,
+                "purchaseOrders": 2,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": true,
+                "_id": "6647198bb9ee2b5818d5e5e2",
+                "createdAt": "2024-05-17T08:47:07.198Z",
+                "updatedAt": "2025-07-04T05:56:57.329Z",
+                "lastEnquiryDate": "2025-07-04T05:56:57.329Z",
+                "lastOrderDate": "2025-05-09T09:44:07.918Z",
+                "lastDispatchDate": "2025-04-30T07:27:41.929Z",
+                "tags": [],
+                "epUserId": "4483",
+                "epTermsId": "1983"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "affiliatePayment": 0,
+                "_id": "6647198bb9ee2b5818d5e5e3",
+                "createdAt": "2024-05-17T08:47:07.198Z",
+                "updatedAt": "2024-05-17T08:48:01.727Z",
+                "affiliateTill": null,
+                "firstDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "perDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                }
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "65cb261276dd766204f80efb",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2024-05-17T08:47:07.198Z",
+            "updatedAt": "2025-07-04T05:56:57.329Z",
+            "businessRefNo": 196,
+            "__v": 0,
+            "updatedBy": "67e3a6ab29e352d9da5dac17",
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2024-05-17T08:48:01.727Z",
+                "vendorId": null
+            },
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "tags": [],
+            "kycDocument": {
+                "panName": "PRAKASH",
+                "updatedAt": "2025-05-09T09:47:15.933Z",
+                "panAttachment": "businesses/15f4d5a076bb24563c15a66bda27cd0c1746784035462.pdf"
+            },
+            "panNumber": "GAWPP8331Q",
+            "beneficiaryAccount": {
+                "accountName": "RAKESH",
+                "accountNo": "341244646466165464",
+                "ifscCode": "CNRB3654",
+                "updatedAt": "2025-05-09T09:47:48.549Z"
+            }
+        },
+        {
+            "_id": "676a5b68958d84b2bea040d2",
+            "name": "BuyoBuyerAutomation",
+            "email": "lywagi@polkaroad.net",
+            "phone": "969879162936",
+            "address": "676a5b65958d84b2bea040c5",
+            "gstNumber": "33AACPR0817J1ZV",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "676a5b68958d84b2bea040d3",
+                "msmeType": ""
+            },
+            "businessType": "consumer",
+            "buying": [
+                "643cfe7c766783c1d5b113f4",
+                "643cff41766783c1d5b1147f",
+                "643cf5f4766783c1d5b10f99",
+                "643cf5a9766783c1d5b10f7e",
+                "643d021e766783c1d5b11704",
+                "643d01bc766783c1d5b116ca",
+                "643d0184766783c1d5b116af",
+                "643cfcbc766783c1d5b111ce",
+                "643cfd38766783c1d5b1129d",
+                "643cf4ea766783c1d5b10f2d"
+            ],
+            "selling": [],
+            "salesHandler": [
+                "65cb261276dd766204f80efb"
+            ],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "676a5b68958d84b2bea040c7",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "676a5b68958d84b2bea040d4",
+                    "createdAt": "2024-12-24T06:57:44.588Z",
+                    "updatedAt": "2024-12-24T06:57:44.588Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "66275cf13a47c089610a34b1",
+                "verifiedOn": "2024-12-24T06:57:44.580Z",
+                "gstVerifiedByApi": true,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 973,
+                "dispatches": 491,
+                "openListings": 0,
+                "openRequirements": 239,
+                "purchaseOrders": 524,
+                "industryType": "Automobile",
+                "partnership": "none",
+                "validEmail": true,
+                "tags": [],
+                "_id": "676a5b68958d84b2bea040d5",
+                "createdAt": "2024-12-24T06:57:44.588Z",
+                "updatedAt": "2025-09-12T10:45:09.931Z",
+                "lastEnquiryDate": "2025-08-18T17:12:42.037Z",
+                "lastOrderDate": "2025-08-18T17:13:38.766Z",
+                "lastDispatchDate": "2025-09-12T10:43:49.590Z",
+                "smEnabled": false
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "676a5b68958d84b2bea040d6",
+                "createdAt": "2024-12-24T06:57:44.588Z",
+                "updatedAt": "2025-08-25T14:48:46.124Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "66275cf13a47c089610a34b1",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2024-12-24T06:57:44.588Z",
+            "updatedAt": "2025-09-12T10:45:09.931Z",
+            "businessRefNo": 283,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "PRAKASHKUMAR MURUGAN",
+                "updatedAt": "2025-06-28T11:27:20.376Z",
+                "addressProof": "businesses/3fe247fc84cedd79e05fbba4efc315ce1751109835386.pdf",
+                "bankProof": "businesses/2eb2d677ed792804b1f318cfb9d725ed1751109835389.pdf",
+                "gstCertificate": "businesses/d56ed45b8c3a8baa54409c115db20f6d1751109835391.pdf",
+                "panAttachment": "businesses/69ce7998ccb0c92a52861f537c5d565a1751110039826.pdf"
+            },
+            "updatedBy": "65cb261276dd766204f80efb",
+            "zohometadata": {
+                "customerId": "2534432000000943002",
+                "updatedAt": "2025-07-03T10:16:14.561Z",
+                "vendorId": null
+            },
+            "panNumber": "GAWPP8991z",
+            "kycCompleted": true
+        },
+        {
+            "_id": "676a5cfc958d84b2bea041ad",
+            "name": "BuyoSellerAutomation",
+            "email": "fofuzi@logsmarter.net",
+            "phone": "9790082201",
+            "address": "676a5cf9958d84b2bea0419a",
+            "gstNumber": "32AAACZ5886G2Z1",
+            "msmeRegistration": {
+                "_id": "676a5cfc958d84b2bea041ae",
+                "msmeType": ""
+            },
+            "businessType": "seller",
+            "buying": [],
+            "selling": [
+                "643cfe7c766783c1d5b113f4",
+                "643cf5f4766783c1d5b10f99",
+                "664c31bae60335a2dc0b7918",
+                "643cf5a9766783c1d5b10f7e",
+                "643d021e766783c1d5b11704",
+                "643d0184766783c1d5b116af",
+                "643d01bc766783c1d5b116ca",
+                "643cf4ea766783c1d5b10f2d",
+                "643cf479766783c1d5b10f02",
+                "643cfc5e766783c1d5b11125"
+            ],
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "676a5cfc958d84b2bea041a2",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "676a5cfc958d84b2bea041af",
+                    "createdAt": "2024-12-24T07:04:28.957Z",
+                    "updatedAt": "2024-12-24T07:04:28.957Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "66275cf13a47c089610a34b1",
+                "verifiedOn": "2024-12-24T07:04:28.952Z",
+                "gstVerifiedByApi": true,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 1000,
+                "dispatches": 492,
+                "openListings": 157,
+                "openRequirements": 0,
+                "purchaseOrders": 0,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": true,
+                "tags": [],
+                "_id": "676a5cfc958d84b2bea041b0",
+                "createdAt": "2024-12-24T07:04:28.957Z",
+                "updatedAt": "2025-09-12T10:45:09.933Z",
+                "lastEnquiryDate": "2025-08-18T17:09:41.251Z",
+                "lastOrderDate": "2025-08-18T17:13:38.766Z",
+                "lastDispatchDate": "2025-09-12T10:43:49.590Z",
+                "smEnabled": false
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "676a5cfc958d84b2bea041b1",
+                "createdAt": "2024-12-24T07:04:28.957Z",
+                "updatedAt": "2025-07-25T12:15:49.477Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "66275cf13a47c089610a34b1",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2024-12-24T07:04:28.957Z",
+            "updatedAt": "2025-09-12T10:45:09.933Z",
+            "businessRefNo": 284,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "PRAKASHKUMAR MURUGAN",
+                "updatedAt": "2025-06-28T11:27:57.338Z",
+                "addressProof": "businesses/71f89253e28aa0e680668d7684ebbb421751109864156.pdf",
+                "bankProof": "businesses/8c9eefd436130aba85681786303a3ab91751109864160.pdf",
+                "gstCertificate": "businesses/f10321af0246f868bdfaf9ed70b997311751109864162.pdf",
+                "panAttachment": "businesses/b0dc390a090b6db78019852fbf112a661751110076964.pdf"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-07-03T10:22:47.115Z",
+                "vendorId": "2534432000002260082"
+            },
+            "panNumber": "GAWPP8991F",
+            "kycCompleted": true,
+            "beneficiaryAccount": {
+                "accountName": "pk",
+                "accountNo": "3437108002246",
+                "ifscCode": "CNRB0003437",
+                "updatedAt": "2025-07-25T12:15:35.126Z"
+            }
+        },
+        {
+            "_id": "67a4bb3057c8e6dbf4996889",
+            "name": "Sri Krishna Briquette's Manufactures",
+            "email": "prakash+2@buyofuel.com",
+            "phone": "1838767676",
+            "address": "67a4bb2e57c8e6dbf499687c",
+            "gstNumber": "06AAACZ9437H1Z0",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "67a4bb3057c8e6dbf499688a",
+                "msmeType": ""
+            },
+            "businessType": "manufacturer",
+            "buying": [
+                "643cfd38766783c1d5b1129d",
+                "643cfa78766783c1d5b11073",
+                "643cfcbc766783c1d5b111ce",
+                "643cf5f4766783c1d5b10f99",
+                "643cfe7c766783c1d5b113f4",
+                "643d00a1766783c1d5b11600"
+            ],
+            "selling": [
+                "643d01bc766783c1d5b116ca",
+                "643cf571766783c1d5b10f63"
+            ],
+            "salesHandler": [
+                "68820b5f6bed86d04bc2fde9"
+            ],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "67a4bb3057c8e6dbf499687e",
+                    "role": "Owner",
+                    "designation": "Owner",
+                    "_id": "67a4bb3057c8e6dbf499688b",
+                    "createdAt": "2025-02-06T13:37:52.184Z",
+                    "updatedAt": "2025-02-06T13:37:52.184Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "66275cf13a47c089610a34b1",
+                "verifiedOn": "2025-02-06T13:37:52.178Z",
+                "gstVerifiedByApi": true,
+                "usedMobileApp": false,
+                "usedWebApp": true,
+                "orders": 86,
+                "dispatches": 88,
+                "openListings": 24,
+                "openRequirements": 0,
+                "purchaseOrders": 1,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": true,
+                "tags": [],
+                "_id": "67a4bb3057c8e6dbf499688c",
+                "createdAt": "2025-02-06T13:37:52.184Z",
+                "updatedAt": "2025-10-17T11:11:06.459Z",
+                "lastEnquiryDate": "2025-07-02T11:50:51.645Z",
+                "lastOrderDate": "2025-06-28T05:00:54.365Z",
+                "lastDispatchDate": "2025-09-16T05:48:20.056Z",
+                "smEnabled": false,
+                "lastActivityDate": "2025-10-17T11:11:06.459Z",
+                "usedInventoryApp": true
+            },
+            "affiliateData": {
+                "affiliateBy": "66e027aed38585a44f57210e",
+                "_id": "67a4bb3057c8e6dbf499688d",
+                "createdAt": "2025-02-06T13:37:52.185Z",
+                "updatedAt": "2025-08-07T06:41:37.955Z",
+                "affiliateStart": "2025-06-01T06:38:36.212Z",
+                "affiliateTill": "2025-06-30T06:38:36.212Z",
+                "firstDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "perDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                }
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "66275cf13a47c089610a34b1",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-02-06T13:37:52.185Z",
+            "updatedAt": "2025-10-23T17:10:28.292Z",
+            "businessRefNo": 301,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "PRAKASHKUMAR MURUGAN",
+                "updatedAt": "2025-06-27T11:37:22.189Z",
+                "addressProof": "businesses/e9bf76816e05d45f2c177dbdc8d10e2a1751024240938.pdf",
+                "bankProof": "businesses/fcf89998a66fc8ebf6111eb28643045a1751024240943.pdf",
+                "gstCertificate": "businesses/93cedf6e083b7277b95d344bd1ade5681751024240947.pdf",
+                "panAttachment": "businesses/0e2df0efa02a0d41eed879f69f495b761751024240949.pdf"
+            },
+            "updatedBy": "67a4bb3057c8e6dbf499687e",
+            "zohometadata": {
+                "customerId": "2534432000007722002",
+                "updatedAt": "2025-07-24T10:33:59.355Z",
+                "vendorId": "2534432000007720001"
+            },
+            "panNumber": "GAWPP8991a",
+            "kycCompleted": true,
+            "theme": "#61b366",
+            "logo": "businesses/969502eb7f25a7df2a9866f5b9d47de81755670807461.png"
+        },
+        {
+            "_id": "67ef5fe59f8a1f2d4846b4a5",
+            "name": "BuyoSeller-AI Test",
+            "email": "prakash.sales.id@buyofuel.com",
+            "phone": "7904882693",
+            "address": "67ef5fe19f8a1f2d4846b496",
+            "gstNumber": "09AAICP7470Q1ZG",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "67ef5fe59f8a1f2d4846b4a6",
+                "msmeType": ""
+            },
+            "businessType": "seller",
+            "buying": [],
+            "selling": [
+                "643cfe7c766783c1d5b113f4",
+                "67d3c581a80b9d4e93a904b3",
+                "643cf5f4766783c1d5b10f99",
+                "664c31bae60335a2dc0b7918",
+                "643d00a1766783c1d5b11600"
+            ],
+            "salesHandler": [
+                "67e3a6ab29e352d9da5dac17"
+            ],
+            "sourcingHandler": [
+                "67e3a6ab29e352d9da5dac17"
+            ],
+            "users": [
+                {
+                    "user": "67ef5fe49f8a1f2d4846b498",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "67ef5fe59f8a1f2d4846b4a7",
+                    "createdAt": "2025-04-04T04:28:21.059Z",
+                    "updatedAt": "2025-04-04T04:28:21.059Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "67e3a6ab29e352d9da5dac17",
+                "verifiedOn": "2025-04-04T04:28:21.054Z",
+                "gstVerifiedByApi": false,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 27,
+                "dispatches": 250,
+                "openListings": 51,
+                "openRequirements": 0,
+                "purchaseOrders": 7,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": false,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "67ef5fe59f8a1f2d4846b4a8",
+                "createdAt": "2025-04-04T04:28:21.059Z",
+                "updatedAt": "2025-10-06T10:16:48.958Z",
+                "lastEnquiryDate": "2025-10-06T10:16:48.951Z",
+                "lastOrderDate": "2025-10-06T06:20:21.680Z",
+                "lastDispatchDate": "2025-10-07T09:46:34.060Z",
+                "lastPickupAddress": "67ef5fe19f8a1f2d4846b496"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "67ef5fe59f8a1f2d4846b4a9",
+                "createdAt": "2025-04-04T04:28:21.059Z",
+                "updatedAt": "2025-10-06T06:15:49.195Z",
+                "affiliateStart": null,
+                "affiliateTill": null,
+                "firstDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "perDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                }
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "67e3a6ab29e352d9da5dac17",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-04-04T04:28:21.060Z",
+            "updatedAt": "2025-10-06T10:16:48.958Z",
+            "businessRefNo": 336,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "Zoho Commodities",
+                "updatedAt": "2025-10-06T06:15:09.833Z",
+                "addressProof": "businesses/bd1528e70abda9b6136dc1283aaa25d71759731309819.pdf",
+                "bankProof": "businesses/ca8956c5c7283757bdde272dac8331961759731309821.pdf",
+                "gstCertificate": "businesses/8066f38a1916977d22755717cc526dcc1759731309822.pdf",
+                "panAttachment": "businesses/47ba4cdd5c3aab296d34fb15315030fb1759731309824.pdf"
+            },
+            "updatedBy": "6847065a42eaf814e1089cb0",
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-10-06T06:15:49.195Z",
+                "vendorId": "2534432000008078003"
+            },
+            "panNumber": "GAWPP9833E",
+            "kycCompleted": true
+        },
+        {
+            "_id": "67f0b5329f8a1f2d48485fc2",
+            "name": "BuyoBuyer _ AI Test",
+            "email": "tech@buyofuel.com",
+            "phone": "8870395633",
+            "buying": [
+                "643cf571766783c1d5b10f63",
+                "643cf5f4766783c1d5b10f99",
+                "67d3c581a80b9d4e93a904b3"
+            ],
+            "selling": [],
+            "salesHandler": [
+                "655c3eb2bb8f8162498f732b"
+            ],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "67f0b5319f8a1f2d48485fa9",
+                    "role": "Owner",
+                    "_id": "67f0b5329f8a1f2d48485fc3",
+                    "createdAt": "2025-04-05T04:44:34.392Z",
+                    "updatedAt": "2025-04-05T05:13:44.546Z",
+                    "designation": ""
+                }
+            ],
+            "metadata": {
+                "usedInventoryApp": true,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 9,
+                "dispatches": 219,
+                "openListings": 2,
+                "openRequirements": 1,
+                "purchaseOrders": 24,
+                "partnership": "none",
+                "tags": [],
+                "_id": "67f0b5329f8a1f2d48485fc4",
+                "createdAt": "2025-04-05T04:44:34.392Z",
+                "updatedAt": "2025-10-06T09:48:00.713Z",
+                "gstVerifiedByApi": true,
+                "lastActivityDate": "2025-04-15T14:34:09.212Z",
+                "industryType": "",
+                "smEnabled": false,
+                "verifiedBy": "67e3a6ab29e352d9da5dac17",
+                "verifiedOn": "2025-04-05T05:14:29.503Z",
+                "lastEnquiryDate": "2025-10-06T09:43:46.147Z",
+                "lastOrderDate": "2025-10-06T06:20:21.680Z",
+                "lastDispatchDate": "2025-10-07T09:46:34.060Z",
+                "validEmail": true,
+                "lastDeliveryAddress": "67f0b5779f8a1f2d48486028"
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "67f0b5319f8a1f2d48485fa9",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-04-05T04:44:34.392Z",
+            "updatedAt": "2025-10-06T09:48:00.713Z",
+            "businessRefNo": 337,
+            "__v": 0,
+            "address": "67f0b5779f8a1f2d48486028",
+            "gstNumber": "27AAACR5055K1Z7",
+            "updatedBy": "65cb261276dd766204f80efb",
+            "businessType": "consumer",
+            "affiliateData": {
+                "affiliateStart": null,
+                "affiliateTill": null,
+                "firstDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "perDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "updatedAt": "2025-10-06T09:10:15.539Z"
+            },
+            "kycDocument": {
+                "panName": "Zoho Commodities",
+                "updatedAt": "2025-10-06T06:13:47.301Z",
+                "addressProof": "businesses/9927b1ec5434808257faf1934373f3d61759731227290.pdf",
+                "bankProof": "businesses/7a4d1d57d84d35845d1e4e5bb154348d1759731227291.pdf",
+                "gstCertificate": "businesses/865ae0849ece7627793c558cfe2472331759731227292.pdf",
+                "panAttachment": "businesses/ec49ccef10db536bfc6d64ea17c4e0701759731227292.pdf"
+            },
+            "msmeRegistration": {
+                "msmeType": ""
+            },
+            "zohometadata": {
+                "customerId": "2534432000008049003",
+                "updatedAt": "2025-10-06T06:13:45.567Z",
+                "vendorId": null
+            },
+            "panNumber": "GAWPP9833E",
+            "kycCompleted": true
+        },
+        {
+            "_id": "67fe6ed2eb71600c4429c6e0",
+            "name": "Reliance Industries Limited",
+            "email": "prakashbarvs42555@gmail.com",
+            "phone": "8838750795",
+            "buying": [
+                "643cf5f4766783c1d5b10f99",
+                "643cf9ca766783c1d5b10ffc"
+            ],
+            "selling": [
+                "67d3c581a80b9d4e93a904b3",
+                "643d01bc766783c1d5b116ca"
+            ],
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "67fe6ed1eb71600c4429c6c7",
+                    "role": "Owner",
+                    "_id": "67fe6ed2eb71600c4429c6e1",
+                    "createdAt": "2025-04-15T14:36:02.417Z",
+                    "updatedAt": "2025-04-24T12:04:21.009Z",
+                    "designation": ""
+                }
+            ],
+            "metadata": {
+                "usedInventoryApp": true,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 2,
+                "dispatches": 4,
+                "openListings": 0,
+                "openRequirements": 0,
+                "purchaseOrders": 0,
+                "partnership": "none",
+                "tags": [],
+                "_id": "67fe6ed2eb71600c4429c6e2",
+                "createdAt": "2025-04-15T14:36:02.417Z",
+                "updatedAt": "2025-05-14T10:26:52.778Z",
+                "gstVerifiedByApi": true,
+                "lastActivityDate": "2025-04-16T04:44:48.160Z",
+                "industryType": "",
+                "smEnabled": false,
+                "validEmail": false,
+                "verifiedBy": "67e3a6ab29e352d9da5dac17",
+                "verifiedOn": "2025-05-09T09:48:50.912Z",
+                "epUserId": "4484",
+                "epTermsId": "1984",
+                "lastOrderDate": "2025-05-09T13:11:50.852Z",
+                "lastDispatchDate": "2025-05-23T11:59:42.249Z"
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "67fe6ed1eb71600c4429c6c7",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-04-15T14:36:02.417Z",
+            "updatedAt": "2025-06-04T07:42:52.671Z",
+            "businessRefNo": 338,
+            "__v": 0,
+            "address": "67fe6efeeb71600c4429c74c",
+            "gstNumber": "27AAACR5055K2Z6",
+            "updatedBy": "67e3a6ab29e352d9da5dac17",
+            "businessType": "manufacturer",
+            "affiliateData": {
+                "affiliateStart": null,
+                "affiliateTill": null,
+                "firstDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "perDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "updatedAt": "2025-05-09T09:49:53.918Z"
+            },
+            "kycDocument": {
+                "panName": "RAKESH VARMA",
+                "updatedAt": "2025-05-09T09:49:56.024Z",
+                "panAttachment": "businesses/5caab13d77f468bd593cdfe2862cb24e1746784195605.pdf"
+            },
+            "msmeRegistration": {
+                "msmeType": ""
+            },
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-04-24T12:04:22.960Z",
+                "vendorId": null
+            },
+            "panNumber": "GAUIR0093R",
+            "beneficiaryAccount": {
+                "accountName": "AXIS BANK",
+                "accountNo": "3432562461465465",
+                "ifscCode": "CNRB",
+                "updatedAt": "2025-06-04T07:42:52.671Z"
+            }
+        },
+        {
+            "_id": "6811fef573008a08f2041f6b",
+            "name": "ASEPTIC SYSTEMS BIO-MEDICAL WASTE MANAGEMENT COMPANY",
+            "email": "prakashbar568@gmail.com",
+            "phone": "8838758999",
+            "address": "6811fef373008a08f2041f5c",
+            "gstNumber": "33AAOFA0044Q1ZC",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "6811fef573008a08f2041f6c",
+                "msmeType": ""
+            },
+            "businessType": "consumer",
+            "buying": [
+                "643cfe7c766783c1d5b113f4",
+                "643cff41766783c1d5b1147f",
+                "67d3c581a80b9d4e93a904b3",
+                "643d00a1766783c1d5b11600",
+                "643cf5f4766783c1d5b10f99"
+            ],
+            "selling": [],
+            "salesHandler": [
+                "67e3a6ab29e352d9da5dac17"
+            ],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "6811fef573008a08f2041f5e",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "6811fef573008a08f2041f6d",
+                    "createdAt": "2025-04-30T10:44:05.200Z",
+                    "updatedAt": "2025-04-30T10:44:05.200Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "67e3a6ab29e352d9da5dac17",
+                "verifiedOn": "2025-04-30T10:44:05.193Z",
+                "gstVerifiedByApi": true,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": true,
+                "orders": 60,
+                "dispatches": 17,
+                "openListings": 0,
+                "openRequirements": 66,
+                "purchaseOrders": 11,
+                "industryType": "Cement",
+                "partnership": "none",
+                "validEmail": false,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "6811fef573008a08f2041f6e",
+                "createdAt": "2025-04-30T10:44:05.200Z",
+                "updatedAt": "2025-10-04T11:01:52.321Z",
+                "lastEnquiryDate": "2025-06-28T12:00:14.454Z",
+                "lastOrderDate": "2025-06-26T07:39:53.582Z",
+                "lastDispatchDate": "2025-05-23T11:59:42.249Z",
+                "lastActivityDate": "2025-05-06T06:32:36.710Z",
+                "epUserId": "4720",
+                "epTermsId": "2073",
+                "lastDeliveryAddress": "6811fef373008a08f2041f5c"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "6811fef573008a08f2041f6f",
+                "createdAt": "2025-04-30T10:44:05.200Z",
+                "updatedAt": "2025-07-03T09:29:46.077Z",
+                "affiliateStart": null,
+                "affiliateTill": null,
+                "firstDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                },
+                "perDispatchCommission": {
+                    "percent": null,
+                    "type": ""
+                }
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "67e3a6ab29e352d9da5dac17",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-04-30T10:44:05.200Z",
+            "updatedAt": "2025-10-04T11:01:52.321Z",
+            "businessRefNo": 339,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "PKR",
+                "updatedAt": "2025-07-03T09:29:49.562Z",
+                "panAttachment": "businesses/351c4b56d5091d341901a1eac742f9061749022873440.pdf",
+                "addressProof": "businesses/8b96b78e13889fad104715d11b2b116a1751534988080.pdf",
+                "bankProof": "businesses/38b30c388d18ae6df3219976f97c94fe1751534988084.pdf",
+                "gstCertificate": "businesses/2b98e580a89d27bfa413fb43a3d479951751534988087.pdf"
+            },
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-04-30T11:02:07.553Z",
+                "vendorId": null
+            },
+            "panNumber": "GAWPP8331T",
+            "beneficiaryAccount": {
+                "accountName": "prakashkkumar",
+                "accountNo": "50100361255931",
+                "ifscCode": "HDFC0001063",
+                "updatedAt": "2025-06-10T09:48:06.744Z",
+                "epBankId": "3372"
+            },
+            "kycCompleted": true
+        },
+        {
+            "_id": "685e266cb3d8579118f474d7",
+            "name": "Reliance",
+            "email": "Leire.Tinkham@AllFreeMail.net",
+            "phone": "1111111115",
+            "address": "685e2669b3d8579118f474c8",
+            "gstNumber": "27AAACR5055K2Z6",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "685e266cb3d8579118f474d8",
+                "msmeType": ""
+            },
+            "businessType": "consumer",
+            "buying": [
+                "643cfe7c766783c1d5b113f4",
+                "643cf5f4766783c1d5b10f99",
+                "67d3c581a80b9d4e93a904b3"
+            ],
+            "selling": [],
+            "salesHandler": [
+                "67dbb3a9ae7ba20ef794b07c"
+            ],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "685e266cb3d8579118f474ca",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "685e266cb3d8579118f474d9",
+                    "createdAt": "2025-06-27T05:04:44.890Z",
+                    "updatedAt": "2025-06-27T05:04:44.890Z"
+                }
+            ],
+            "metadata": {
+                "verifiedBy": "67dbb3a9ae7ba20ef794b07c",
+                "verifiedOn": "2025-06-27T05:04:44.886Z",
+                "gstVerifiedByApi": false,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 3,
+                "dispatches": 4,
+                "openListings": 0,
+                "openRequirements": 1,
+                "purchaseOrders": 1,
+                "industryType": "Automobile",
+                "partnership": "none",
+                "validEmail": true,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "685e266cb3d8579118f474da",
+                "createdAt": "2025-06-27T05:04:44.891Z",
+                "updatedAt": "2025-09-16T05:49:30.993Z",
+                "lastEnquiryDate": "2025-06-28T04:48:07.064Z",
+                "lastOrderDate": "2025-06-28T04:48:12.351Z",
+                "lastDispatchDate": "2025-09-16T05:48:20.056Z"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "685e266cb3d8579118f474db",
+                "createdAt": "2025-06-27T05:04:44.891Z",
+                "updatedAt": "2025-06-27T11:22:30.312Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-06-27T05:04:44.891Z",
+            "updatedAt": "2025-09-16T05:49:30.993Z",
+            "businessRefNo": 342,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "PRAKASHKUMAR MURUGAN",
+                "updatedAt": "2025-06-27T11:22:39.597Z",
+                "addressProof": "businesses/0d36c505d8dd0e25cb8fe4822030f1531751023357943.pdf",
+                "bankProof": "businesses/3392307f67a4319dd81563edd9378b971751023357948.pdf",
+                "gstCertificate": "businesses/b0840e7ac720a0b5623a25de0159940f1751023357950.pdf",
+                "panAttachment": "businesses/ec48ebd4b3c213bad446d715f21f89891751023357951.pdf"
+            },
+            "panNumber": "GAWPP8991R",
+            "updatedBy": "67e3a6ab29e352d9da5dac17",
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-06-27T11:22:30.312Z",
+                "vendorId": null
+            },
+            "kycCompleted": true
+        },
+        {
+            "_id": "68666aab1c60487c5e5909b7",
+            "name": "Km Buyo Limited",
+            "email": "prakas14h@buyofuel.com",
+            "phone": "1438750760",
+            "address": "68666aa91c60487c5e5909a8",
+            "gstNumber": "27AAACI1195H2ZL",
+            "msmeRegistration": {
+                "_id": "68666aab1c60487c5e5909b8",
+                "msmeType": "",
+                "isMsmeRegistered": false
+            },
+            "businessType": "consumer",
+            "buying": [
+                "643cfe7c766783c1d5b113f4",
+                "643cf5f4766783c1d5b10f99",
+                "67d3c581a80b9d4e93a904b3"
+            ],
+            "selling": [],
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "68666aab1c60487c5e5909aa",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "68666aab1c60487c5e5909b9",
+                    "createdAt": "2025-07-03T11:34:03.761Z",
+                    "updatedAt": "2025-07-03T11:34:03.761Z"
+                }
+            ],
+            "metadata": {
+                "gstVerifiedByApi": true,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 6,
+                "dispatches": 4,
+                "openListings": 0,
+                "openRequirements": 2,
+                "purchaseOrders": 3,
+                "industryType": "Automobile",
+                "partnership": "none",
+                "validEmail": false,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "68666aab1c60487c5e5909ba",
+                "createdAt": "2025-07-03T11:34:03.761Z",
+                "updatedAt": "2025-09-16T09:00:05.309Z",
+                "verifiedBy": "67e3a6ab29e352d9da5dac17",
+                "verifiedOn": "2025-07-03T12:01:34.124Z",
+                "lastEnquiryDate": "2025-07-04T06:07:06.333Z",
+                "lastOrderDate": "2025-07-04T06:17:16.433Z",
+                "lastDispatchDate": "2025-09-16T08:32:08.336Z"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "68666aab1c60487c5e5909bb",
+                "createdAt": "2025-07-03T11:34:03.762Z",
+                "updatedAt": "2025-07-03T12:17:10.119Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "kycCompleted": true,
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-07-03T11:34:03.762Z",
+            "updatedAt": "2025-09-16T09:00:05.309Z",
+            "businessRefNo": 353,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "PRAKASH",
+                "updatedAt": "2025-07-03T12:04:33.519Z",
+                "addressProof": "businesses/2c921f1b9bd899bf56a854d25bc938a31751544273238.pdf",
+                "bankProof": "businesses/c3dc1ea0eb71bc2cc71b1ef0b8bab3341751544273241.pdf",
+                "gstCertificate": "businesses/6cd59b04423b7ebaec97c8a30deeca021751544273246.pdf",
+                "panAttachment": "businesses/7f648596783d6921c9eb2d64f7c6dfd61751544273248.pdf"
+            },
+            "updatedBy": "67e3a6ab29e352d9da5dac17",
+            "zohometadata": {
+                "customerId": "2534432000000929001",
+                "updatedAt": "2025-07-03T12:17:10.119Z",
+                "vendorId": null
+            },
+            "panNumber": "GAWUU8771W"
+        },
+        {
+            "_id": "6866740b1c60487c5e5944f4",
+            "name": "NATIONAL PETROCHEMICALS LIMITED",
+            "email": "PRAK16ASH@BUYOFUEL.COM",
+            "phone": "1638750760",
+            "address": "686674091c60487c5e5944e5",
+            "gstNumber": "27AAECN0217H1ZS",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "6866740b1c60487c5e5944f5",
+                "msmeType": ""
+            },
+            "businessType": "seller",
+            "buying": [],
+            "selling": [
+                "643cfe7c766783c1d5b113f4",
+                "643cf5f4766783c1d5b10f99",
+                "67d3c581a80b9d4e93a904b3",
+                "643d00a1766783c1d5b11600"
+            ],
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "6866740b1c60487c5e5944e7",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "6866740b1c60487c5e5944f6",
+                    "createdAt": "2025-07-03T12:14:03.206Z",
+                    "updatedAt": "2025-07-03T12:14:03.206Z"
+                }
+            ],
+            "metadata": {
+                "gstVerifiedByApi": true,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": false,
+                "orders": 4,
+                "dispatches": 2,
+                "openListings": 1,
+                "openRequirements": 0,
+                "purchaseOrders": 0,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": false,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "6866740b1c60487c5e5944f7",
+                "createdAt": "2025-07-03T12:14:03.206Z",
+                "updatedAt": "2025-09-16T09:00:05.308Z",
+                "verifiedBy": "67e3a6ab29e352d9da5dac17",
+                "verifiedOn": "2025-07-03T12:14:11.860Z",
+                "lastOrderDate": "2025-07-04T06:17:16.433Z",
+                "lastEnquiryDate": "2025-07-04T05:42:37.937Z",
+                "lastDispatchDate": "2025-09-16T08:32:08.336Z"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "6866740b1c60487c5e5944f8",
+                "createdAt": "2025-07-03T12:14:03.206Z",
+                "updatedAt": "2025-07-07T05:55:05.767Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "kycCompleted": true,
+            "createdBy": "67e3a6ab29e352d9da5dac17",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-07-03T12:14:03.206Z",
+            "updatedAt": "2025-09-16T09:00:05.308Z",
+            "businessRefNo": 354,
+            "__v": 0,
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "kycDocument": {
+                "panName": "KUMAR",
+                "updatedAt": "2025-07-03T12:20:14.437Z",
+                "panAttachment": "businesses/50945ff2d2ea1ce5bd3ec98b06692e631751545188645.pdf",
+                "addressProof": "businesses/968a9eed1d2f0d9125a6f812e45de7131751545214301.pdf",
+                "bankProof": "businesses/97b9c7e0ec7253192390730a8bfabaa51751545214301.pdf",
+                "gstCertificate": "businesses/86e2d3fa5a4789223ced48d14203c30f1751545214303.pdf"
+            },
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-07-03T12:19:02.356Z",
+                "vendorId": "2534432000002949008"
+            },
+            "panNumber": "GAWPP9833E"
+        },
+        {
+            "_id": "689ff4275ddceaed802041f9",
+            "name": "VSN_Buyer",
+            "email": "prakash+6@buyofuel.com",
+            "phone": "1234562345",
+            "address": "689ff4235ddceaed802041ea",
+            "gstNumber": "23AAACC1206D2ZN",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "689ff4275ddceaed802041fa",
+                "msmeType": ""
+            },
+            "businessType": "consumer",
+            "buying": [
+                "643cfe7c766783c1d5b113f4",
+                "643cf5f4766783c1d5b10f99",
+                "67d3c581a80b9d4e93a904b3",
+                "643d00a1766783c1d5b11600"
+            ],
+            "selling": [],
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "689ff4275ddceaed802041ec",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "689ff4275ddceaed802041fb",
+                    "createdAt": "2025-08-16T02:59:51.502Z",
+                    "updatedAt": "2025-08-16T02:59:51.502Z"
+                }
+            ],
+            "metadata": {
+                "gstVerifiedByApi": true,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": true,
+                "orders": 4,
+                "dispatches": 1,
+                "openListings": 0,
+                "openRequirements": 0,
+                "purchaseOrders": 3,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": true,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "689ff4275ddceaed802041fc",
+                "createdAt": "2025-08-16T02:59:51.502Z",
+                "updatedAt": "2025-08-21T14:31:40.729Z",
+                "verifiedBy": "67dbb3a9ae7ba20ef794b07c",
+                "verifiedOn": "2025-08-16T03:09:13.167Z",
+                "lastEnquiryDate": "2025-08-16T04:01:18.769Z",
+                "lastOrderDate": "2025-08-16T04:01:50.228Z",
+                "lastDispatchDate": "2025-08-16T04:03:27.136Z",
+                "lastActivityDate": "2025-08-16T05:13:19.245Z"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "689ff4275ddceaed802041fd",
+                "createdAt": "2025-08-16T02:59:51.503Z",
+                "updatedAt": "2025-08-16T03:27:22.145Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "kycCompleted": true,
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-08-16T02:59:51.503Z",
+            "updatedAt": "2025-08-21T14:31:40.729Z",
+            "businessRefNo": 416,
+            "__v": 0,
+            "updatedBy": "67dbb3a9ae7ba20ef794b07c",
+            "kycDocument": {
+                "panName": "VKS",
+                "updatedAt": "2025-08-16T03:27:25.193Z",
+                "addressProof": "businesses/07eed39ca5b2a440bbcfbb2a98e0c9be1755314845178.pdf",
+                "bankProof": "businesses/fd6b85fa3fd7968720bcc24c13e068751755314845182.pdf",
+                "gstCertificate": "businesses/c6d00e80c9b755ae5de32f1765442cbf1755314845185.pdf",
+                "panAttachment": "businesses/a06d59296d84af77414d437bf089f8041755314845186.pdf"
+            },
+            "zohometadata": {
+                "customerId": "2534432000007722002",
+                "updatedAt": "2025-08-16T03:16:41.379Z",
+                "vendorId": null
+            },
+            "panNumber": "GAYU738738"
+        },
+        {
+            "_id": "689ff4f45ddceaed802042ae",
+            "name": "VSN_Seller",
+            "email": "prakash+7@buyofuel.com",
+            "phone": "1234562347",
+            "address": "689ff4f05ddceaed8020429f",
+            "gstNumber": "07AABCA2804L1ZW",
+            "msmeRegistration": {
+                "isMsmeRegistered": false,
+                "_id": "689ff4f45ddceaed802042af",
+                "msmeType": ""
+            },
+            "businessType": "seller",
+            "buying": [],
+            "selling": [
+                "643cf5f4766783c1d5b10f99",
+                "67d3c581a80b9d4e93a904b3",
+                "643d00a1766783c1d5b11600",
+                "643cfe7c766783c1d5b113f4"
+            ],
+            "salesHandler": [],
+            "sourcingHandler": [],
+            "users": [
+                {
+                    "user": "689ff4f45ddceaed802042a1",
+                    "role": "Owner",
+                    "designation": "",
+                    "_id": "689ff4f45ddceaed802042b0",
+                    "createdAt": "2025-08-16T03:03:16.241Z",
+                    "updatedAt": "2025-08-16T03:03:16.241Z"
+                },
+                {
+                    "user": "68ac9ec85d78981ff00b0d4f",
+                    "role": "Sales Manager",
+                    "designation": "SO",
+                    "_id": "68ac9ec85d78981ff00b0d5f",
+                    "createdAt": "2025-08-25T17:35:04.919Z",
+                    "updatedAt": "2025-08-25T17:35:04.919Z"
+                }
+            ],
+            "metadata": {
+                "gstVerifiedByApi": true,
+                "usedInventoryApp": false,
+                "usedMobileApp": false,
+                "usedWebApp": true,
+                "orders": 4,
+                "dispatches": 1,
+                "openListings": 0,
+                "openRequirements": 0,
+                "purchaseOrders": 0,
+                "industryType": "",
+                "partnership": "none",
+                "validEmail": true,
+                "tags": [],
+                "smEnabled": true,
+                "_id": "689ff4f45ddceaed802042b1",
+                "createdAt": "2025-08-16T03:03:16.241Z",
+                "updatedAt": "2025-08-21T14:31:40.732Z",
+                "verifiedBy": "67dbb3a9ae7ba20ef794b07c",
+                "verifiedOn": "2025-08-16T03:09:17.163Z",
+                "lastOrderDate": "2025-08-16T04:01:50.228Z",
+                "lastDispatchDate": "2025-08-16T04:03:27.136Z",
+                "lastActivityDate": "2025-08-16T05:14:00.044Z"
+            },
+            "affiliateData": {
+                "affiliateBy": null,
+                "_id": "689ff4f45ddceaed802042b2",
+                "createdAt": "2025-08-16T03:03:16.241Z",
+                "updatedAt": "2025-08-16T03:40:08.121Z",
+                "affiliateStart": null,
+                "affiliateTill": null
+            },
+            "updates": [],
+            "status": "Verified",
+            "kycCompleted": true,
+            "createdBy": "67dbb3a9ae7ba20ef794b07c",
+            "deleted": false,
+            "zbDispatchAddresses": [],
+            "createdAt": "2025-08-16T03:03:16.241Z",
+            "updatedAt": "2025-08-25T17:35:04.919Z",
+            "businessRefNo": 417,
+            "__v": 0,
+            "kycDocument": {
+                "panName": "VKS",
+                "updatedAt": "2025-08-16T03:40:08.121Z",
+                "addressProof": "businesses/0d457684c407a61ce3ec47214f98a1261755315087805.pdf",
+                "bankProof": "businesses/c07a608fab3e77b6a35ab183883f29c41755315087808.pdf",
+                "gstCertificate": "businesses/4d7c59e264129bdc71fb8adfa9d369111755315087809.pdf",
+                "panAttachment": "businesses/07487e996cdd796bf420844e9fc8499f1755315087813.pdf"
+            },
+            "updatedBy": "6847065a42eaf814e1089cb0",
+            "zohometadata": {
+                "customerId": null,
+                "updatedAt": "2025-08-16T03:33:00.797Z",
+                "vendorId": "2534432000002949008"
+            },
+            "panNumber": "VKSPANV"
+        }
+    ],
+    "insights": {},
+    "count": 13,
+    "pages": 1
+}

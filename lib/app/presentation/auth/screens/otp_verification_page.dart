@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:partner/app/presentation/app_layout/appBar/custom_appBar.dart';
+import 'package:partner/app/common_widgets/app_layout/appBar/custom_appBar.dart';
 import 'package:partner/app/common_widgets/buttons/CustomButton.dart';
 import 'package:partner/app/common_widgets/inputs/custom_otp_input.dart';
 
@@ -47,7 +47,6 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
     await Future.delayed(const Duration(seconds: 2));
     setState(() => _isLoading = false);
 
-    // TODO: API validation logic
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('OTP $_otpValue verified successfully')),
     );
@@ -75,34 +74,23 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 20),
-
-              const Text(
+              Text(
                 'Enter OTP',
-                style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.w700,
-                  color: Colors.black,
-                ),
+                style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(height: 8),
 
               Text.rich(
                 TextSpan(
                   children: [
-                    const TextSpan(
+                     TextSpan(
                       text: 'Enter the 4-digit OTP code that we sent to\n',
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black54,
-                      ),
+                      style: Theme.of( context).textTheme.bodyMedium,
                     ),
                     TextSpan(
                       text: widget.email,
-                      style: const TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.black,
-                      ),
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            fontWeight: FontWeight.w600, ),
                     ),
                   ],
                 ),
@@ -147,7 +135,7 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
                 isLoading: _isLoading,
                 variant: ButtonVariant.primary,
                 size: ButtonSize.large,
-                fullWidth: true,
+              
               ),
             ],
           ),

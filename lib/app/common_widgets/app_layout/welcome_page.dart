@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:partner/app/presentation/app_layout/appBar/custom_appBar.dart';
+import 'package:partner/app/common_widgets/app_layout/appBar/custom_appBar.dart';
 import 'package:partner/app/common_widgets/buttons/CustomButton.dart';
+import 'package:partner/app/router/route_constants.dart';
+import 'package:partner/core/constants/app_colors.dart';
 import 'package:partner/core/constants/enum.dart'; // assuming ButtonVariant, ButtonSize enums
 
 class WelcomePage extends StatelessWidget {
@@ -15,7 +17,7 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: const CustomAppBar(title: '', showBack: false, elevation: 0),
+      appBar: const CustomAppBar(showLogo: true ,backgroundColor: AppColors.white,),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
@@ -23,17 +25,6 @@ class WelcomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const SizedBox(height: 16),
-
-              // Buyofuel Logo
-              Center(
-                child: Image.asset(
-                  'assets/logo.png', // replace with your logo asset
-                  height: 40,
-                ),
-              ),
-
-              const SizedBox(height: 24),
-
               // Mockup Image
               Image.asset(
                 'assets/welcome.png', // your reference phone image
@@ -76,20 +67,20 @@ class WelcomePage extends StatelessWidget {
                   Expanded(
                     child: CustomButton(
                       title: "I’m a Trade Partner",
-                       onPressed: () => handleClick(context, '/login'),
+                       onPressed: () => handleClick(context, RouteConstants.homeRoute),
                       variant: ButtonVariant.primary,
                       size: ButtonSize.medium,
-                      fullWidth: true,
+                      width: double.infinity,
                     ),
                   ),
                   const SizedBox(width: 12),
                   Expanded(
                     child: CustomButton(
                       title: "I’m an Affiliate",
-                        onPressed: () => handleClick(context, '/login'),
+                        onPressed: () => handleClick(context,RouteConstants.loginRoute),
                       variant: ButtonVariant.primary,
                       size: ButtonSize.medium,
-                      fullWidth: true,
+                      width: double.infinity,
                     ),
                   ),
                 ],

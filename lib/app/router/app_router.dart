@@ -1,15 +1,17 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:partner/app/presentation/app_layout/home_layout.dart';
+import 'package:partner/app/common_widgets/app_layout/home_layout.dart';
 import 'package:partner/app/presentation/auth/providers/auth_provider.dart';
 import 'package:partner/app/presentation/auth/screens/create_new_password_page.dart.dart';
 import 'package:partner/app/presentation/auth/screens/forgot_password_page.dart';
 import 'package:partner/app/presentation/auth/screens/login_page.dart';
 import 'package:partner/app/presentation/auth/screens/otp_verification_page.dart';
 import 'package:partner/app/presentation/auth/screens/register_screen.dart';
-import 'package:partner/app/presentation/app_layout/welcome_page.dart';
+import 'package:partner/app/common_widgets/app_layout/welcome_page.dart';
 import 'package:partner/app/presentation/dashboard/screens/DashboardScreen.dart';
+import 'package:partner/app/presentation/invoices/screen/add_invoice_page.dart';
+import 'package:partner/app/presentation/settings/screens/get_support_page.dart';
 import 'package:partner/app/router/route_constants.dart';
 
 /// Watchable notifier for GoRouter
@@ -26,7 +28,7 @@ final routerProvider = Provider<GoRouter>((ref) {
 
   return GoRouter(
     refreshListenable: authNotifier,
-    initialLocation: RouteConstants.homeRoute,
+    initialLocation: RouteConstants.splashRoute,
     redirect: (context, state) {
       final authState = ref.read(authProvider);
       final isLoggedIn = authState.user.value != null;
@@ -114,6 +116,11 @@ final routerProvider = Provider<GoRouter>((ref) {
             const DashboardScreen(), // replace with SettingsScreen
       ),
       GoRoute(
+        path: RouteConstants.getSupportRoute,
+        builder: (_, __) =>
+             GetSupportPage(), // replace with SettingsScreen
+      ),
+      GoRoute(
         path: RouteConstants.invoiceDashboardRoute,
         builder: (_, __) =>
             const DashboardScreen(), // replace with InvoiceDashboardScreen
@@ -121,7 +128,7 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: RouteConstants.addInvoiceRoute,
         builder: (_, __) =>
-            const DashboardScreen(), // replace with AddInvoiceScreen
+            const AddInvoicePage(), // replace with AddInvoiceScreen
       ),
       GoRoute(
         path: RouteConstants.viewInvoiceRoute,
